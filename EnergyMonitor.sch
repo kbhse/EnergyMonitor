@@ -10,7 +10,7 @@ Rev "v1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
-Comment3 "https://www.gitub.com/kbhse"
+Comment3 "https://www.github.com/kbhse"
 Comment4 "klomar"
 $EndDescr
 Text GLabel 2300 3575 2    50   Input ~ 0
