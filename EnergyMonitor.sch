@@ -1,0 +1,672 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "ESP32 Energy Monitor"
+Date "2021-09-04"
+Rev "v1.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 "https://www.gitub.com/kbhse"
+Comment4 "klomar"
+$EndDescr
+Text GLabel 2300 3575 2    50   Input ~ 0
+ADC1_CH6
+Text GLabel 2300 3675 2    50   Input ~ 0
+ADC1_CH7
+$Comp
+L power:GND #PWR?
+U 1 1 6131BED5
+P 1700 3975
+F 0 "#PWR?" H 1700 3725 50  0001 C CNN
+F 1 "GND" H 1705 3802 50  0000 C CNN
+F 2 "" H 1700 3975 50  0001 C CNN
+F 3 "" H 1700 3975 50  0001 C CNN
+	1    1700 3975
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6131CC87
+P 1700 1175
+F 0 "#PWR?" H 1700 1025 50  0001 C CNN
+F 1 "+3V3" H 1715 1348 50  0000 C CNN
+F 2 "" H 1700 1175 50  0001 C CNN
+F 3 "" H 1700 1175 50  0001 C CNN
+	1    1700 1175
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6135620D
+P 10225 3050
+F 0 "#PWR?" H 10225 2800 50  0001 C CNN
+F 1 "GND" H 10230 2877 50  0000 C CNN
+F 2 "" H 10225 3050 50  0001 C CNN
+F 3 "" H 10225 3050 50  0001 C CNN
+	1    10225 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61356213
+P 8675 3200
+F 0 "R?" H 8745 3246 50  0000 L CNN
+F 1 "22R" H 8745 3155 50  0000 L CNN
+F 2 "" V 8605 3200 50  0001 C CNN
+F 3 "~" H 8675 3200 50  0001 C CNN
+	1    8675 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61356219
+P 9025 3200
+F 0 "R?" H 9095 3246 50  0000 L CNN
+F 1 "22R" H 9095 3155 50  0000 L CNN
+F 2 "" V 8955 3200 50  0001 C CNN
+F 3 "~" H 9025 3200 50  0001 C CNN
+	1    9025 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6135621F
+P 9775 3200
+F 0 "R?" H 9845 3246 50  0000 L CNN
+F 1 "470K" H 9845 3155 50  0000 L CNN
+F 2 "" V 9705 3200 50  0001 C CNN
+F 3 "~" H 9775 3200 50  0001 C CNN
+	1    9775 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61356225
+P 9775 3500
+F 0 "R?" H 9845 3546 50  0000 L CNN
+F 1 "470K" H 9845 3455 50  0000 L CNN
+F 2 "" V 9705 3500 50  0001 C CNN
+F 3 "~" H 9775 3500 50  0001 C CNN
+	1    9775 3500
+	1    0    0    -1  
+$EndComp
+Connection ~ 9775 3350
+$Comp
+L Device:C C?
+U 1 1 6135622C
+P 10225 3500
+F 0 "C?" H 10340 3546 50  0000 L CNN
+F 1 "10uF" H 10340 3455 50  0000 L CNN
+F 2 "" H 10263 3350 50  0001 C CNN
+F 3 "~" H 10225 3500 50  0001 C CNN
+	1    10225 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9775 3350 10225 3350
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61356233
+P 9775 3050
+F 0 "#PWR?" H 9775 2900 50  0001 C CNN
+F 1 "+3V3" H 9790 3223 50  0000 C CNN
+F 2 "" H 9775 3050 50  0001 C CNN
+F 3 "" H 9775 3050 50  0001 C CNN
+	1    9775 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61356239
+P 9375 2900
+F 0 "R?" H 9445 2946 50  0000 L CNN
+F 1 "1K" H 9445 2855 50  0000 L CNN
+F 2 "" V 9305 2900 50  0001 C CNN
+F 3 "~" H 9375 2900 50  0001 C CNN
+	1    9375 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6135623F
+P 10225 2900
+F 0 "D?" V 10179 2980 50  0000 L CNN
+F 1 "ESD5Z3.3T1G" V 10270 2980 50  0000 L CNN
+F 2 "" H 10225 2900 50  0001 C CNN
+F 3 "~" H 10225 2900 50  0001 C CNN
+	1    10225 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9375 2750 10225 2750
+Wire Wire Line
+	10225 2750 10475 2750
+Connection ~ 10225 2750
+Connection ~ 9025 3050
+Wire Wire Line
+	9025 3050 9375 3050
+Connection ~ 9025 3350
+Wire Wire Line
+	8675 3050 9025 3050
+Wire Wire Line
+	8675 3350 9025 3350
+Wire Wire Line
+	9025 3350 9375 3350
+Text Notes 6675 3450 0    50   ~ 0
+YHDC SCT-013-00 CT
+Text Notes 8675 3550 0    50   ~ 0
+23kW Max @ 240V
+Wire Wire Line
+	8675 3350 8075 3350
+Connection ~ 8675 3350
+Text Notes 8725 3450 0    50   ~ 0
+Burden
+$Comp
+L Device:R R?
+U 1 1 61356254
+P 8675 4000
+F 0 "R?" H 8745 4046 50  0000 L CNN
+F 1 "120R" H 8745 3955 50  0000 L CNN
+F 2 "" V 8605 4000 50  0001 C CNN
+F 3 "~" H 8675 4000 50  0001 C CNN
+	1    8675 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6135625A
+P 9025 4000
+F 0 "R?" H 9095 4046 50  0000 L CNN
+F 1 "120R" H 9095 3955 50  0000 L CNN
+F 2 "" V 8955 4000 50  0001 C CNN
+F 3 "~" H 9025 4000 50  0001 C CNN
+	1    9025 4000
+	1    0    0    -1  
+$EndComp
+Connection ~ 9025 3850
+Wire Wire Line
+	9025 3850 9225 3850
+Connection ~ 9025 4150
+Wire Wire Line
+	8675 3850 9025 3850
+Wire Wire Line
+	8675 4150 9025 4150
+Wire Wire Line
+	9025 4150 9575 4150
+Text Notes 8425 3800 0    50   ~ 0
+YHDC SCT-013-00 CT
+Text Notes 8525 4350 0    50   ~ 0
+4kW Max @ 240V
+Wire Wire Line
+	8675 3850 8525 3850
+Connection ~ 8675 3850
+Wire Wire Line
+	8675 4150 8525 4150
+Connection ~ 8675 4150
+Text Notes 8725 4250 0    50   ~ 0
+Burden
+$Comp
+L power:GNDA #PWR?
+U 1 1 6135626D
+P 9775 3650
+F 0 "#PWR?" H 9775 3400 50  0001 C CNN
+F 1 "GNDA" H 9780 3477 50  0000 C CNN
+F 2 "" H 9775 3650 50  0001 C CNN
+F 3 "" H 9775 3650 50  0001 C CNN
+	1    9775 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 61356273
+P 7875 3650
+F 0 "#PWR?" H 7875 3400 50  0001 C CNN
+F 1 "GNDA" H 7880 3477 50  0000 C CNN
+F 2 "" H 7875 3650 50  0001 C CNN
+F 3 "" H 7875 3650 50  0001 C CNN
+	1    7875 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack3_Ground_SwitchTR J?
+U 1 1 61356279
+P 7875 3150
+F 0 "J?" H 7857 3475 50  0000 C CNN
+F 1 "AudioJack3_Ground_SwitchTR" H 7857 3384 50  0000 C CNN
+F 2 "" H 7875 3150 50  0001 C CNN
+F 3 "~" H 7875 3150 50  0001 C CNN
+	1    7875 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8675 3050 8425 3050
+Wire Wire Line
+	8425 3050 8425 3150
+Wire Wire Line
+	8425 3150 8075 3150
+Connection ~ 8675 3050
+Wire Wire Line
+	8075 3050 8175 3050
+Wire Wire Line
+	8175 3050 8175 3450
+Wire Wire Line
+	8175 3650 7875 3650
+Connection ~ 7875 3650
+Wire Wire Line
+	8075 3450 8175 3450
+Connection ~ 8175 3450
+Wire Wire Line
+	8175 3450 8175 3650
+Text Notes 6975 3850 0    50   ~ 0
+tip: white\nring: red\nsleeve: shield
+$Comp
+L Connector:Barrel_Jack_Switch J?
+U 1 1 6135628B
+P 7950 1750
+F 0 "J?" H 8007 2067 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 8007 1976 50  0000 C CNN
+F 2 "" H 8000 1710 50  0001 C CNN
+F 3 "~" H 8000 1710 50  0001 C CNN
+	1    7950 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61356291
+P 8650 1650
+F 0 "C?" V 8398 1650 50  0000 C CNN
+F 1 "1uF 25V" V 8489 1650 50  0000 C CNN
+F 2 "" H 8688 1500 50  0001 C CNN
+F 3 "~" H 8650 1650 50  0001 C CNN
+	1    8650 1650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8250 1650 8400 1650
+$Comp
+L Device:R R?
+U 1 1 61356298
+P 9000 1650
+F 0 "R?" V 9100 1600 50  0000 L CNN
+F 1 "120K" V 8900 1550 50  0000 L CNN
+F 2 "" V 8930 1650 50  0001 C CNN
+F 3 "~" H 9000 1650 50  0001 C CNN
+	1    9000 1650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8800 1650 8850 1650
+Wire Wire Line
+	8400 1700 8400 1650
+Connection ~ 8400 1650
+Wire Wire Line
+	8400 1650 8500 1650
+$Comp
+L Device:R R?
+U 1 1 613562A2
+P 9400 1650
+F 0 "R?" V 9500 1600 50  0000 L CNN
+F 1 "10K" V 9300 1600 50  0000 L CNN
+F 2 "" V 9330 1650 50  0001 C CNN
+F 3 "~" H 9400 1650 50  0001 C CNN
+	1    9400 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 613562A8
+P 9200 1350
+F 0 "R?" H 9270 1396 50  0000 L CNN
+F 1 "470K" H 9270 1305 50  0000 L CNN
+F 2 "" V 9130 1350 50  0001 C CNN
+F 3 "~" H 9200 1350 50  0001 C CNN
+	1    9200 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 1650 9200 1650
+Wire Wire Line
+	9200 1500 9200 1650
+Connection ~ 9200 1650
+Wire Wire Line
+	9200 1650 9250 1650
+Wire Wire Line
+	9200 1200 9200 1100
+Wire Wire Line
+	9200 1100 10125 1100
+$Comp
+L power:GND #PWR?
+U 1 1 613562B5
+P 10125 1400
+F 0 "#PWR?" H 10125 1150 50  0001 C CNN
+F 1 "GND" H 10130 1227 50  0000 C CNN
+F 2 "" H 10125 1400 50  0001 C CNN
+F 3 "" H 10125 1400 50  0001 C CNN
+	1    10125 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 613562BB
+P 10125 1250
+F 0 "D?" V 10079 1330 50  0000 L CNN
+F 1 "ESD5Z3.3T1G" V 10170 1330 50  0000 L CNN
+F 2 "" H 10125 1250 50  0001 C CNN
+F 3 "~" H 10125 1250 50  0001 C CNN
+	1    10125 1250
+	0    1    1    0   
+$EndComp
+Connection ~ 10125 1100
+Wire Wire Line
+	10125 1100 10475 1100
+$Comp
+L Device:R R?
+U 1 1 613562C3
+P 9675 1500
+F 0 "R?" H 9745 1546 50  0000 L CNN
+F 1 "470K" H 9745 1455 50  0000 L CNN
+F 2 "" V 9605 1500 50  0001 C CNN
+F 3 "~" H 9675 1500 50  0001 C CNN
+	1    9675 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 613562C9
+P 9675 1800
+F 0 "R?" H 9745 1846 50  0000 L CNN
+F 1 "470K" H 9745 1755 50  0000 L CNN
+F 2 "" V 9605 1800 50  0001 C CNN
+F 3 "~" H 9675 1800 50  0001 C CNN
+	1    9675 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 9675 1650
+$Comp
+L Device:C C?
+U 1 1 613562D0
+P 10125 1800
+F 0 "C?" H 10240 1846 50  0000 L CNN
+F 1 "10uF" H 10240 1755 50  0000 L CNN
+F 2 "" H 10163 1650 50  0001 C CNN
+F 3 "~" H 10125 1800 50  0001 C CNN
+	1    10125 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9675 1650 10125 1650
+$Comp
+L power:+3V3 #PWR?
+U 1 1 613562D7
+P 9675 1350
+F 0 "#PWR?" H 9675 1200 50  0001 C CNN
+F 1 "+3V3" H 9690 1523 50  0000 C CNN
+F 2 "" H 9675 1350 50  0001 C CNN
+F 3 "" H 9675 1350 50  0001 C CNN
+	1    9675 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 1650 9675 1650
+$Comp
+L power:GNDA #PWR?
+U 1 1 613562DE
+P 9675 1950
+F 0 "#PWR?" H 9675 1700 50  0001 C CNN
+F 1 "GNDA" H 9680 1777 50  0000 C CNN
+F 2 "" H 9675 1950 50  0001 C CNN
+F 3 "" H 9675 1950 50  0001 C CNN
+	1    9675 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 613562E4
+P 10225 3650
+F 0 "#PWR?" H 10225 3400 50  0001 C CNN
+F 1 "GNDA" H 10230 3477 50  0000 C CNN
+F 2 "" H 10225 3650 50  0001 C CNN
+F 3 "" H 10225 3650 50  0001 C CNN
+	1    10225 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 613562EA
+P 10125 1950
+F 0 "#PWR?" H 10125 1700 50  0001 C CNN
+F 1 "GNDA" H 10130 1777 50  0000 C CNN
+F 2 "" H 10125 1950 50  0001 C CNN
+F 3 "" H 10125 1950 50  0001 C CNN
+	1    10125 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 613562F0
+P 8400 1950
+F 0 "#PWR?" H 8400 1700 50  0001 C CNN
+F 1 "GNDA" H 8405 1777 50  0000 C CNN
+F 2 "" H 8400 1950 50  0001 C CNN
+F 3 "" H 8400 1950 50  0001 C CNN
+	1    8400 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 1850 8400 1850
+Wire Wire Line
+	8400 1850 8400 1950
+Wire Wire Line
+	8250 1750 8400 1750
+Wire Wire Line
+	8400 1750 8400 1850
+Connection ~ 8400 1850
+Text Notes 6925 4275 0    50   ~ 0
+nb rewire CT Sensor Jack\nplug disconnect red signal\nwire from cable shield and\nconnect to ring.
+Text Notes 8350 1000 0    100  ~ 0
+AC-AC 9V VRMS Sample
+Text Notes 8100 2575 0    100  ~ 0
+CT Current Sensors
+$Comp
+L Device:C C?
+U 1 1 61356306
+P 9375 3200
+F 0 "C?" H 9490 3246 50  0000 L CNN
+F 1 "0.1uF" H 9490 3155 50  0000 L CNN
+F 2 "" H 9413 3050 50  0001 C CNN
+F 3 "~" H 9375 3200 50  0001 C CNN
+	1    9375 3200
+	1    0    0    -1  
+$EndComp
+Connection ~ 9375 3050
+Connection ~ 9375 3350
+Wire Wire Line
+	9375 3350 9775 3350
+$Comp
+L RF_Module:ESP32-WROOM-32 U?
+U 1 1 613185A1
+P 1700 2575
+F 0 "U?" H 1250 4050 50  0000 C CNN
+F 1 "ESP32-WROOM-32" H 1575 2975 50  0000 C CNN
+F 2 "RF_Module:ESP32-WROOM-32" H 1700 1075 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 1400 2625 50  0001 C CNN
+	1    1700 2575
+	1    0    0    -1  
+$EndComp
+Text Notes 50   8950 0    50   ~ 0
+https://www.casler.org/wordpress/low-current-measurement-performance-of-the-sct013/\nhttps://github.com/openenergymonitor/emontx3/blob/master/hardware/schematic.png\nhttps://github.com/openenergymonitor/emonpi/blob/master/hardware/emonpi/emonpi_V1_6/emonPi_V1.6_sch.png
+$Comp
+L Device:D D?
+U 1 1 6132DEB9
+P 1325 6950
+F 0 "D?" H 1325 6733 50  0000 C CNN
+F 1 "IN4148" H 1325 6824 50  0000 C CNN
+F 2 "" H 1325 6950 50  0001 C CNN
+F 3 "~" H 1325 6950 50  0001 C CNN
+	1    1325 6950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6132F450
+P 1625 6950
+F 0 "R?" V 1500 6950 50  0000 C CNN
+F 1 "56R 0.25W" V 1725 6950 50  0000 C CNN
+F 2 "" V 1555 6950 50  0001 C CNN
+F 3 "~" H 1625 6950 50  0001 C CNN
+	1    1625 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 61331042
+P 2025 7100
+F 0 "C?" H 2143 7146 50  0000 L CNN
+F 1 "47uF" H 2143 7055 50  0000 L CNN
+F 2 "" H 2063 6950 50  0001 C CNN
+F 3 "~" H 2025 7100 50  0001 C CNN
+	1    2025 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1775 6950 2025 6950
+$Comp
+L power:GND #PWR?
+U 1 1 6133411A
+P 2025 7250
+F 0 "#PWR?" H 2025 7000 50  0001 C CNN
+F 1 "GND" H 2030 7077 50  0000 C CNN
+F 2 "" H 2025 7250 50  0001 C CNN
+F 3 "" H 2025 7250 50  0001 C CNN
+	1    2025 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1075 6950 1175 6950
+Text GLabel 1075 6950 0    50   Input ~ 0
+9V_AC
+Text GLabel 8400 1225 2    50   Input ~ 0
+9V_AC
+Wire Wire Line
+	8400 1650 8400 1225
+$Comp
+L MyComponents:HT7333 U?
+U 1 1 61339D83
+P 2675 6900
+F 0 "U?" H 2675 7115 50  0000 C CNN
+F 1 "HT7333" H 2675 7024 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3" H 2725 7100 50  0001 C CNN
+F 3 "" H 2675 6900 50  0001 C CNN
+	1    2675 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6133A72F
+P 2675 7250
+F 0 "#PWR?" H 2675 7000 50  0001 C CNN
+F 1 "GND" H 2680 7077 50  0000 C CNN
+F 2 "" H 2675 7250 50  0001 C CNN
+F 3 "" H 2675 7250 50  0001 C CNN
+	1    2675 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2025 6950 2375 6950
+Connection ~ 2025 6950
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 613318AE
+P 3500 6750
+F 0 "J?" V 3464 6562 50  0000 R CNN
+F 1 "Conn_01x02" V 3373 6562 50  0000 R CNN
+F 2 "" H 3500 6750 50  0001 C CNN
+F 3 "~" H 3500 6750 50  0001 C CNN
+	1    3500 6750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61331E92
+P 3200 7100
+F 0 "C?" H 3315 7146 50  0000 L CNN
+F 1 "10uF" H 3315 7055 50  0000 L CNN
+F 2 "" H 3238 6950 50  0001 C CNN
+F 3 "~" H 3200 7100 50  0001 C CNN
+	1    3200 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2975 6950 3200 6950
+Wire Wire Line
+	3200 6950 3500 6950
+Connection ~ 3200 6950
+$Comp
+L power:GND #PWR?
+U 1 1 61336877
+P 3200 7250
+F 0 "#PWR?" H 3200 7000 50  0001 C CNN
+F 1 "GND" H 3205 7077 50  0000 C CNN
+F 2 "" H 3200 7250 50  0001 C CNN
+F 3 "" H 3200 7250 50  0001 C CNN
+	1    3200 7250
+	1    0    0    -1  
+$EndComp
+Text Notes 2225 6775 0    50   ~ 0
+3V3 LDO\n250mA
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61337478
+P 4200 6675
+F 0 "#PWR?" H 4200 6525 50  0001 C CNN
+F 1 "+3V3" H 4215 6848 50  0000 C CNN
+F 2 "" H 4200 6675 50  0001 C CNN
+F 3 "" H 4200 6675 50  0001 C CNN
+	1    4200 6675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 6950 4200 6950
+Wire Wire Line
+	4200 6950 4200 6675
+Text Notes 3400 6650 0    50   ~ 0
+Jumper
+Wire Notes Line
+	4400 7550 725  7550
+Wire Notes Line
+	725  7550 725  6250
+Wire Notes Line
+	725  6250 4400 6250
+Wire Notes Line
+	4400 6250 4400 7550
+Text Notes 875  6500 0    100  ~ 0
+AC-DC Power
+Text Notes 875  7400 0    50   ~ 0
+check these values !!
+Text Notes 3625 7450 0    50   ~ 0
+Remove Jumper\nif ESP32 powered\nby USB.
+Text GLabel 2300 3475 2    50   Input ~ 0
+ADC1_CH5
+Text GLabel 2300 3375 2    50   Input ~ 0
+ADC1_CH4
+Text GLabel 2300 2875 2    50   Input ~ 0
+I2C_SCL
+Text GLabel 2300 2775 2    50   Input ~ 0
+I2C_SDA
+Text GLabel 2300 2975 2    50   Input ~ 0
+SPI_MOSI
+Text GLabel 2300 2675 2    50   Input ~ 0
+SPI_MISO
+Text GLabel 2300 2575 2    50   Input ~ 0
+SPI_CLK
+Text GLabel 2300 1875 2    50   Input ~ 0
+SPI_CS
+Text GLabel 10475 1100 2    50   Input ~ 0
+ADC1_CH7
+Text GLabel 10475 2750 2    50   Input ~ 0
+ADC1_CH6
+$EndSCHEMATC
