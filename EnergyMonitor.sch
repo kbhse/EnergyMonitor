@@ -13,9 +13,9 @@ Comment2 ""
 Comment3 "https://www.github.com/kbhse"
 Comment4 "klomar"
 $EndDescr
-Text GLabel 2300 3575 2    50   Input ~ 0
+Text GLabel 4450 2100 2    50   Input ~ 0
 ADC1_CH6
-Text GLabel 2300 3675 2    50   Input ~ 0
+Text GLabel 4450 1900 2    50   Input ~ 0
 ADC1_CH7
 $Comp
 L power:GND #PWR?
@@ -300,8 +300,6 @@ F 3 "~" H 9000 1650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8800 1650 8850 1650
-Wire Wire Line
-	8400 1700 8400 1650
 Connection ~ 8400 1650
 Wire Wire Line
 	8400 1650 8500 1650
@@ -649,21 +647,21 @@ Text Notes 875  7400 0    50   ~ 0
 check these values !!
 Text Notes 3625 7450 0    50   ~ 0
 Remove Jumper\nif ESP32 powered\nby USB.
-Text GLabel 2300 3475 2    50   Input ~ 0
+Text GLabel 4450 2000 2    50   Input ~ 0
 ADC1_CH5
-Text GLabel 2300 3375 2    50   Input ~ 0
+Text GLabel 3650 1900 0    50   Input ~ 0
 ADC1_CH4
-Text GLabel 2300 2875 2    50   Input ~ 0
+Text GLabel 3650 2900 0    50   Input ~ 0
 I2C_SCL
-Text GLabel 2300 2775 2    50   Input ~ 0
+Text GLabel 3650 3000 0    50   Input ~ 0
 I2C_SDA
-Text GLabel 2300 2975 2    50   Input ~ 0
+Text GLabel 4450 3200 2    50   Input ~ 0
 SPI_MOSI
-Text GLabel 2300 2675 2    50   Input ~ 0
+Text GLabel 4450 3100 2    50   Input ~ 0
 SPI_MISO
-Text GLabel 2300 2575 2    50   Input ~ 0
+Text GLabel 4450 3000 2    50   Input ~ 0
 SPI_CLK
-Text GLabel 2300 1875 2    50   Input ~ 0
+Text GLabel 4450 3300 2    50   Input ~ 0
 SPI_CS
 Text GLabel 10475 1100 2    50   Input ~ 0
 ADC1_CH7
@@ -13191,4 +13189,49 @@ F 3 "" H 4050 3050 50  0001 C CNN
 	1    4050 2600
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 613461CB
+P 3550 3750
+F 0 "#PWR?" H 3550 3500 50  0001 C CNN
+F 1 "GND" H 3555 3577 50  0000 C CNN
+F 2 "" H 3550 3750 50  0001 C CNN
+F 3 "" H 3550 3750 50  0001 C CNN
+	1    3550 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61346C95
+P 4550 3750
+F 0 "#PWR?" H 4550 3500 50  0001 C CNN
+F 1 "GND" H 4555 3577 50  0000 C CNN
+F 2 "" H 4550 3750 50  0001 C CNN
+F 3 "" H 4550 3750 50  0001 C CNN
+	1    4550 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 3600 4550 3600
+Wire Wire Line
+	4550 3600 4550 3750
+Wire Wire Line
+	3650 3600 3550 3600
+Wire Wire Line
+	3550 3600 3550 3750
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6134B5B4
+P 4550 1450
+F 0 "#PWR?" H 4550 1300 50  0001 C CNN
+F 1 "+3V3" H 4565 1623 50  0000 C CNN
+F 2 "" H 4550 1450 50  0001 C CNN
+F 3 "" H 4550 1450 50  0001 C CNN
+	1    4550 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 1450 4550 1600
+Wire Wire Line
+	4550 1600 4450 1600
 $EndSCHEMATC
