@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "ESP32 Energy Monitor"
-Date "2021-09-04"
+Date "2021-09-05"
 Rev "v1.0"
 Comp ""
 Comment1 ""
@@ -13,32 +13,10 @@ Comment2 ""
 Comment3 "https://www.github.com/kbhse"
 Comment4 "klomar"
 $EndDescr
-Text GLabel 4450 2100 2    50   Input ~ 0
+Text GLabel 1650 2725 0    50   Input ~ 0
 ADC1_CH6
-Text GLabel 4450 1900 2    50   Input ~ 0
+Text GLabel 1650 2325 0    50   Input ~ 0
 ADC1_CH7
-$Comp
-L power:GND #PWR?
-U 1 1 6131BED5
-P 1700 3975
-F 0 "#PWR?" H 1700 3725 50  0001 C CNN
-F 1 "GND" H 1705 3802 50  0000 C CNN
-F 2 "" H 1700 3975 50  0001 C CNN
-F 3 "" H 1700 3975 50  0001 C CNN
-	1    1700 3975
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 6131CC87
-P 1700 1175
-F 0 "#PWR?" H 1700 1025 50  0001 C CNN
-F 1 "+3V3" H 1715 1348 50  0000 C CNN
-F 2 "" H 1700 1175 50  0001 C CNN
-F 3 "" H 1700 1175 50  0001 C CNN
-	1    1700 1175
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 6135620D
@@ -487,12 +465,12 @@ Wire Wire Line
 $Comp
 L RF_Module:ESP32-WROOM-32 U?
 U 1 1 613185A1
-P 1700 2575
-F 0 "U?" H 1250 4050 50  0000 C CNN
-F 1 "ESP32-WROOM-32" H 1575 2975 50  0000 C CNN
-F 2 "RF_Module:ESP32-WROOM-32" H 1700 1075 50  0001 C CNN
-F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 1400 2625 50  0001 C CNN
-	1    1700 2575
+P -1275 5250
+F 0 "U?" H -1725 6725 50  0000 C CNN
+F 1 "ESP32-WROOM-32" H -1400 5650 50  0000 C CNN
+F 2 "RF_Module:ESP32-WROOM-32" H -1275 3750 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H -1575 5300 50  0001 C CNN
+	1    -1275 5250
 	1    0    0    -1  
 $EndComp
 Text Notes 50   8950 0    50   ~ 0
@@ -639,21 +617,21 @@ Text Notes 875  7400 0    50   ~ 0
 check these values !!
 Text Notes 3625 7450 0    50   ~ 0
 Remove Jumper\nif ESP32 powered\nby USB.
-Text GLabel 4450 2000 2    50   Input ~ 0
+Text GLabel 1650 2525 0    50   Input ~ 0
 ADC1_CH5
-Text GLabel 3650 1900 0    50   Input ~ 0
+Text GLabel 2450 2425 2    50   Input ~ 0
 ADC1_CH4
-Text GLabel 3650 2900 0    50   Input ~ 0
+Text GLabel 2450 2125 2    50   Input ~ 0
 I2C_SCL
-Text GLabel 3650 3000 0    50   Input ~ 0
+Text GLabel 2450 2325 2    50   Input ~ 0
 I2C_SDA
-Text GLabel 4450 3200 2    50   Input ~ 0
+Text GLabel 1650 2825 0    50   Input ~ 0
 SPI_MOSI
-Text GLabel 4450 3100 2    50   Input ~ 0
+Text GLabel 1650 2625 0    50   Input ~ 0
 SPI_MISO
-Text GLabel 4450 3000 2    50   Input ~ 0
+Text GLabel 1650 2425 0    50   Input ~ 0
 SPI_CLK
-Text GLabel 4450 3300 2    50   Input ~ 0
+Text GLabel 1650 3025 0    50   Input ~ 0
 SPI_CS
 Text GLabel 10475 1100 2    50   Input ~ 0
 ADC1_CH7
@@ -13173,57 +13151,72 @@ $EndBitmap
 $Comp
 L MyComponents:ESP32_D1_MINI U?
 U 1 1 6133B216
-P 4050 2600
-F 0 "U?" H 4050 3865 50  0000 C CNN
-F 1 "ESP32_D1_MINI" H 4050 3774 50  0000 C CNN
-F 2 "" H 4050 3050 50  0001 C CNN
-F 3 "" H 4050 3050 50  0001 C CNN
-	1    4050 2600
+P 2050 2675
+F 0 "U?" H 2050 3940 50  0000 C CNN
+F 1 "ESP32_D1_MINI" H 2050 3849 50  0000 C CNN
+F 2 "" H 2050 3125 50  0001 C CNN
+F 3 "" H 2050 3125 50  0001 C CNN
+	1    2050 2675
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 613461CB
-P 3550 3750
-F 0 "#PWR?" H 3550 3500 50  0001 C CNN
-F 1 "GND" H 3555 3577 50  0000 C CNN
-F 2 "" H 3550 3750 50  0001 C CNN
-F 3 "" H 3550 3750 50  0001 C CNN
-	1    3550 3750
+P 1125 1875
+F 0 "#PWR?" H 1125 1625 50  0001 C CNN
+F 1 "GND" H 1130 1702 50  0000 C CNN
+F 2 "" H 1125 1875 50  0001 C CNN
+F 3 "" H 1125 1875 50  0001 C CNN
+	1    1125 1875
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 61346C95
-P 4550 3750
-F 0 "#PWR?" H 4550 3500 50  0001 C CNN
-F 1 "GND" H 4555 3577 50  0000 C CNN
-F 2 "" H 4550 3750 50  0001 C CNN
-F 3 "" H 4550 3750 50  0001 C CNN
-	1    4550 3750
+P 3000 1975
+F 0 "#PWR?" H 3000 1725 50  0001 C CNN
+F 1 "GND" H 3005 1802 50  0000 C CNN
+F 2 "" H 3000 1975 50  0001 C CNN
+F 3 "" H 3000 1975 50  0001 C CNN
+	1    3000 1975
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4450 3600 4550 3600
+	2450 1825 3000 1825
 Wire Wire Line
-	4550 3600 4550 3750
+	3000 1825 3000 1975
 Wire Wire Line
-	3650 3600 3550 3600
+	1650 1725 1125 1725
 Wire Wire Line
-	3550 3600 3550 3750
+	1125 1725 1125 1875
 $Comp
 L power:+3V3 #PWR?
 U 1 1 6134B5B4
-P 4550 1450
-F 0 "#PWR?" H 4550 1300 50  0001 C CNN
-F 1 "+3V3" H 4565 1623 50  0000 C CNN
-F 2 "" H 4550 1450 50  0001 C CNN
-F 3 "" H 4550 1450 50  0001 C CNN
-	1    4550 1450
+P 1100 3075
+F 0 "#PWR?" H 1100 2925 50  0001 C CNN
+F 1 "+3V3" H 1115 3248 50  0000 C CNN
+F 2 "" H 1100 3075 50  0001 C CNN
+F 3 "" H 1100 3075 50  0001 C CNN
+	1    1100 3075
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 3075 1100 3225
+Wire Wire Line
+	1100 3225 1650 3225
+$Comp
+L power:GND #PWR?
+U 1 1 6136B822
+P 3000 3075
+F 0 "#PWR?" H 3000 2825 50  0001 C CNN
+F 1 "GND" H 3005 2902 50  0000 C CNN
+F 2 "" H 3000 3075 50  0001 C CNN
+F 3 "" H 3000 3075 50  0001 C CNN
+	1    3000 3075
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4550 1450 4550 1600
+	2450 2925 3000 2925
 Wire Wire Line
-	4550 1600 4450 1600
+	3000 2925 3000 3075
 $EndSCHEMATC
