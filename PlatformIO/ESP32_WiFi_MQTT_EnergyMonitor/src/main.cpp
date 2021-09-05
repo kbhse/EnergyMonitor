@@ -44,7 +44,7 @@ void setup()
     digitalWrite(lamp, HIGH);                                                  // turn onboard LED OFF
   #endif
 
-  connect_wifi();                             // NB as non-blocking, do I need a delay here?  test it !!!!!!!!!
+  connect_wifi();                             // NB as non-blocking, do I need a delay here?  test it
 
   client.setServer(mqttServer, mqttPort);
   client.setCallback(callback);
