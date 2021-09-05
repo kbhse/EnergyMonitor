@@ -633,14 +633,6 @@ Wire Wire Line
 	4200 6950 4200 6675
 Text Notes 3400 6650 0    50   ~ 0
 Jumper
-Wire Notes Line
-	4400 7550 725  7550
-Wire Notes Line
-	725  7550 725  6250
-Wire Notes Line
-	725  6250 4400 6250
-Wire Notes Line
-	4400 6250 4400 7550
 Text Notes 875  6500 0    100  ~ 0
 AC-DC Power
 Text Notes 875  7400 0    50   ~ 0
@@ -668,7 +660,7 @@ ADC1_CH7
 Text GLabel 10475 2750 2    50   Input ~ 0
 ADC1_CH6
 $Bitmap
-Pos 1750 5225
+Pos -1150 5075
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 D8 00 00 02 4B 08 02 00 00 00 CB A1 10 
