@@ -133,7 +133,7 @@
 
     // ------------------------------------------------------------------
     void readSensors()
-    // read sensors and send data to MQTT
+    // read sensors and publish data to MQTT
 
         {
         #ifdef WEMOS_SHT30
