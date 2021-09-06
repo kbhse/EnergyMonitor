@@ -1,4 +1,4 @@
-﻿ESP32 based energy monitor
+﻿**ESP32 based energy monitor**
 
 Samples voltage and current waveform at 2500 Hz.
 The voltage waveform is sampled from unloaded AC/AC 9v wallplug adapters and the current waveforms with current transformers clamped round the live (or neutral) conductors.
@@ -9,7 +9,9 @@ Uses the [EmonLib library](https://github.com/openenergymonitor/EmonLib/blob/mas
 
 [An Introduction to AC Power](https://learn.openenergymonitor.org/electricity-monitoring/ac-power-theory/introduction#an-introduction-to-ac-power)
 
-The ESP32 is a low-cost, low-power [system on a chip](https://en.wikipedia.org/wiki/System_on_a_chip "System on a chip") [microcontroller](https://en.wikipedia.org/wiki/Microcontroller "Microcontroller") with integrated [Wi-Fi](https://en.wikipedia.org/wiki/Wi-Fi "Wi-Fi")
+The ESP32 is a low-cost, low-power [system on a chip](https://en.wikipedia.org/wiki/System_on_a_chip "System on a chip") [microcontroller](https://en.wikipedia.org/wiki/Microcontroller "Microcontroller") with integrated Wi-Fi, created and developed by Espressif Systems
+
+![image](https://user-images.githubusercontent.com/55367064/132167781-9750606c-70ef-4763-a6fa-50ad65bcf074.png)
 
 The full spec. of the ESP32:
 
