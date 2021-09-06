@@ -43,7 +43,7 @@ So the old code would only be blocking on startup or restart (in setup() call to
 This code: `while (WiFi.status() != WL_CONNECTED)` could loop forever if no WiFi connection established.
 Don't need to report connection established so just get rid of that code.
 
-NB test it works if ESP8266 starts up with no WiFi available. does a blink in loop work??
+NB test it works if ESP8266 starts up with no WiFi available. does a blink in loop work?
 
 for an event driven solution that reports connection/disconnection without blocking critical functionality
 
