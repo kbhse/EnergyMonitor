@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "ESP32 Energy Monitor"
-Date "2021-09-06"
+Date "2021-09-07"
 Rev "v1.0"
 Comp ""
 Comment1 ""
@@ -27,7 +27,7 @@ U 1 1 6135628B
 P 7875 2200
 F 0 "J8" H 7932 2517 50  0000 C CNN
 F 1 "Barrel_Jack_Switch" H 7932 2426 50  0000 C CNN
-F 2 "" H 7925 2160 50  0001 C CNN
+F 2 "MyFootprints:DC_Barrel_Jack_Socket" H 7925 2160 50  0001 C CNN
 F 3 "~" H 7925 2160 50  0001 C CNN
 	1    7875 2200
 	1    0    0    -1  
@@ -12895,7 +12895,7 @@ U 1 1 6133B216
 P 2050 2675
 F 0 "U2" H 2050 3800 50  0000 C CNN
 F 1 "ESP32_D1_MINI" H 2050 4000 100 0000 C CNN
-F 2 "" H 2050 3125 50  0001 C CNN
+F 2 "MyFootprints:ESP32_D1_MINI" H 2050 3125 50  0001 C CNN
 F 3 "" H 2050 3125 50  0001 C CNN
 	1    2050 2675
 	1    0    0    -1  
@@ -13198,7 +13198,7 @@ U 1 1 61394CD8
 P 4250 2000
 F 0 "J2" H 4232 2325 50  0000 C CNN
 F 1 "AudioJack3_Ground_SwitchTR" H 4232 2234 50  0000 C CNN
-F 2 "" H 4250 2000 50  0001 C CNN
+F 2 "MyFootprints:3.5mm_5_Pin_Socket_PCB_Mount" H 4250 2000 50  0001 C CNN
 F 3 "~" H 4250 2000 50  0001 C CNN
 	1    4250 2000
 	1    0    0    -1  
@@ -13423,7 +13423,7 @@ U 1 1 6141559C
 P 4250 3450
 F 0 "J3" H 4232 3775 50  0000 C CNN
 F 1 "AudioJack3_Ground_SwitchTR" H 4232 3684 50  0000 C CNN
-F 2 "" H 4250 3450 50  0001 C CNN
+F 2 "MyFootprints:3.5mm_5_Pin_Socket_PCB_Mount" H 4250 3450 50  0001 C CNN
 F 3 "~" H 4250 3450 50  0001 C CNN
 	1    4250 3450
 	1    0    0    -1  
@@ -13648,7 +13648,7 @@ U 1 1 6143E4AC
 P 4250 4900
 F 0 "J4" H 4232 5225 50  0000 C CNN
 F 1 "AudioJack3_Ground_SwitchTR" H 4232 5134 50  0000 C CNN
-F 2 "" H 4250 4900 50  0001 C CNN
+F 2 "MyFootprints:3.5mm_5_Pin_Socket_PCB_Mount" H 4250 4900 50  0001 C CNN
 F 3 "~" H 4250 4900 50  0001 C CNN
 	1    4250 4900
 	1    0    0    -1  
@@ -13731,6 +13731,6 @@ Wire Wire Line
 Wire Wire Line
 	5650 4450 5650 4500
 Connection ~ 6500 4450
-Text Notes 8900 3350 0    100  ~ 0
+Text Notes 8925 2950 0    100  ~ 0
 I2C
 $EndSCHEMATC
