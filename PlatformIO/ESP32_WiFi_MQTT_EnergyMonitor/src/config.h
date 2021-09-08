@@ -7,7 +7,7 @@
     #include "credentials.h"
 
     #define PROGNAM "ESP32_WiFi_MQTT_ENERGYMONITOR"                                                     // program name
-    #define VERSION "v0.12.0"                                                                            // program version (nb lowercase 'version' is keyword)
+    #define VERSION "v0.12.0"                                                                           // program version (nb lowercase 'version' is keyword)
     #define PGMFUNCT ""                                                                                 // what the program does
     #define AUTHOR "klomar"                                                                             // created by
     #define CREATION_DATE "17 August 2021"                                                              // date
