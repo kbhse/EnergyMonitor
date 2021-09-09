@@ -138,7 +138,7 @@
             Serial.print("Changing Room lamp to ");
             if(messageTemp == "on")
                 {
-                digitalWrite(lamp, LOW);                       // active LOW
+                digitalWrite(lamp, LOW);                        // active LOW
                 Serial.print("On");
                 }
             else if(messageTemp == "off")

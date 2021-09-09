@@ -200,7 +200,7 @@
             double watts = amps * HOME_VOLTAGE;
             dtostrf(amps, 6, 2, ampsTemp);                                                          // convert float to char array
             dtostrf(watts, 6, 2, wattsTemp);
-            //itoa(amps, ampsTemp, 10);                                                               // convert integer to string (base 10)
+            //itoa(amps, ampsTemp, 10);                                                             // convert integer to string (base 10)
             //itoa(watts, wattsTemp, 10);
             client.publish(MQTT_LOCATION "/amps", ampsTemp);                                        // publish to MQTT
             client.publish(MQTT_LOCATION "/watts", wattsTemp);

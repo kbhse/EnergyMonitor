@@ -21,7 +21,7 @@ EnergyMonitor emon1;
 
 long updateFreq = 1000;                                                      // DEFAULT update frequency for sensors and publish to MQTT (milliseconds)
 int timerID;
-bool restartFlg;                                                            // used to flag restarts so reconnect() will publish notification of restart to MQTT topic /sysMessage
+bool restartFlg;                                                             // used to flag restarts so reconnect() will publish notification of restart to MQTT topic /sysMessage
 long lastMqttReconnectAttempt = 0;
 
 // ------------------------------------------------------------------

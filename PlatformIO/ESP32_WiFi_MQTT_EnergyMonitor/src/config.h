@@ -7,11 +7,11 @@
     #include "credentials.h"
 
     #define PROGNAM "ESP32_WiFi_MQTT_ENERGYMONITOR"                                                     // program name
-    #define VERSION "v0.12.0"                                                                           // program version (nb lowercase 'version' is keyword)
+    #define VERSION "v0.12.1"                                                                           // program version (nb lowercase 'version' is keyword)
     #define PGMFUNCT ""                                                                                 // what the program does
     #define AUTHOR "klomar"                                                                             // created by
     #define CREATION_DATE "17 August 2021"                                                              // date
-    #define MODIFIED_DATE "5 September 2021"
+    #define MODIFIED_DATE "9 September 2021"
     #define DEBUG_OUT
 
 
@@ -39,7 +39,7 @@
 
         #define MQTT_DEVICE "esp031"                                                                       // MQTT requires unique device ID (see reconnect() function)
         #define PUB_SUB_CLIENT esp031client                                                                // and unique client ?
-        #define MQTT_LOCATION "roaming31"                                                                    // location for MQTT topic
+        #define MQTT_LOCATION "roaming31"                                                                  // location for MQTT topic
 
     // ------------------------------------------------------------------
     // Comment out sensors not in use
@@ -54,8 +54,8 @@
         //#define ROBOTDYN_ACDIMMER "ACDIMMER "                                                                     // Robotdyn zero-crossing detector and AC dimmer module
         //#define MLX90614_IR_SENSOR "IR "                                                                          // IR temp sensor
         //#define DS18B20 "DS18B20"                                                                                 // 1-wire temperature sensor
-        #define CURRENT_SENSOR                                                                                    // YHDC SCT-013 CT Sensor
-        //#define ADC_TEST                                                                                            // test
+        #define CURRENT_SENSOR                                                                                      // YHDC SCT-013 CT Sensor
+        //#define ADC_TEST                                                                                          // test
 
 /*
     // ------------------------------------------------------------------------------------------------
