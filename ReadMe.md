@@ -1,6 +1,6 @@
 ﻿* Schematic and PCB design in [KiCad](https://www.kicad.org/)
 
-* Case design in [SolidWorks](https://www.solidworks.com/)
+* Hardware design in [SolidWorks](https://www.solidworks.com/)
 
 * C++ code written in the [PlatformIO](https://docs.platformio.org/en/latest/what-is-platformio.html) IDE
 
