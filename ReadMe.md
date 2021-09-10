@@ -11,7 +11,7 @@
 Samples voltage and current waveform at 2500 Hz.
 The voltage waveform is sampled from an unloaded AC/AC 9v wallplug adapter and the current waveforms with current transformers clamped round the live (or neutral) conductors.
 
-Intergrated into a MQTT IoT sensor network with Node-RED, InfluxDB and Grafana servers.
+Intergrated into a [MQTT](https://en.wikipedia.org/wiki/MQTT) [IoT](https://en.wikipedia.org/wiki/Internet_of_things) sensor network with [Node-RED](https://nodered.org/), [InfluxDB](https://www.influxdata.com/) and [Grafana](https://grafana.com/) servers.
 
 Uses the [EmonLib library](https://github.com/openenergymonitor/EmonLib/blob/master/EmonLib.h)
 
