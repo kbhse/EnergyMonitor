@@ -48,7 +48,9 @@ The full spec. of the ESP32:
 - 5 μA deep sleep current
 - Wake up from GPIO interrupt, timer, ADC measurements, capacitive touch sensor interrupt
 
+Case designs in [SolidWorks](https://www.solidworks.com/)
 
 ![image](https://user-images.githubusercontent.com/55367064/132191737-ac75240d-4bd4-4ac8-abb8-16fea45ae91d.png)
 
 
+C++ code written in the [PlatformIO](https://docs.platformio.org/en/latest/what-is-platformio.html) IDE
