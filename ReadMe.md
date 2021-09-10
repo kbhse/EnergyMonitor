@@ -2,7 +2,7 @@
 
 * Hardware design in [SolidWorks](https://www.solidworks.com/)
 
-* C++ code written in the [PlatformIO](https://docs.platformio.org/en/latest/what-is-platformio.html) IDE
+* C++ code on [PlatformIO](https://docs.platformio.org/en/latest/what-is-platformio.html) IDE
 
 &nbsp;
 
