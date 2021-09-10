@@ -13,7 +13,7 @@ The voltage waveform is sampled from an unloaded AC/AC 9v wallplug adapter and t
 
 Intergrated into a [MQTT](https://en.wikipedia.org/wiki/MQTT) [IoT](https://en.wikipedia.org/wiki/Internet_of_things) sensor network with [Node-RED](https://nodered.org/), [InfluxDB](https://www.influxdata.com/) and [Grafana](https://grafana.com/) servers.
 
-Uses the [EmonLib library](https://github.com/openenergymonitor/EmonLib/blob/master/EmonLib.h)
+Uses the [EmonLib library](https://github.com/openenergymonitor/EmonLib)
 
 [An Introduction to AC Power](https://learn.openenergymonitor.org/electricity-monitoring/ac-power-theory/introduction#an-introduction-to-ac-power)
 
