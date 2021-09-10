@@ -17,11 +17,11 @@ Uses the [EmonLib library](https://github.com/openenergymonitor/EmonLib/blob/mas
 
 [An Introduction to AC Power](https://learn.openenergymonitor.org/electricity-monitoring/ac-power-theory/introduction#an-introduction-to-ac-power)
 
-The ESP32 is a low-cost, low-power [system on a chip](https://en.wikipedia.org/wiki/System_on_a_chip "System on a chip") [microcontroller](https://en.wikipedia.org/wiki/Microcontroller "Microcontroller") with integrated Wi-Fi, created and developed by Espressif Systems
+The **ESP32** is a low-cost, low-power [system on a chip](https://en.wikipedia.org/wiki/System_on_a_chip "System on a chip") [microcontroller](https://en.wikipedia.org/wiki/Microcontroller "Microcontroller") with integrated Wi-Fi, created and developed by Espressif Systems
 
 ![image](https://user-images.githubusercontent.com/55367064/132167781-9750606c-70ef-4763-a6fa-50ad65bcf074.png)
 
-The full spec. of the ESP32:
+Specification:
 
 - Xtensa dual-core 32-bit LX6 microprocessor
 - 240 MHz
@@ -56,11 +56,6 @@ The full spec. of the ESP32:
 - 5 μA deep sleep current
 - Wake up from GPIO interrupt, timer, ADC measurements, capacitive touch sensor interrupt
 
-Circuit design in [KiCad](https://www.kicad.org/)
-
-Case designs in [SolidWorks](https://www.solidworks.com/)
+Case designs:
 
 ![image](https://user-images.githubusercontent.com/55367064/132191737-ac75240d-4bd4-4ac8-abb8-16fea45ae91d.png)
-
-
-C++ code written in the [PlatformIO](https://docs.platformio.org/en/latest/what-is-platformio.html) IDE
