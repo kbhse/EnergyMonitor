@@ -1,4 +1,12 @@
-﻿**ESP32 based energy monitor**
+﻿* Schematic and PCB design in [KiCad](https://www.kicad.org/)
+
+* Case design in [SolidWorks](https://www.solidworks.com/)
+
+* C++ code written in the [PlatformIO](https://docs.platformio.org/en/latest/what-is-platformio.html) IDE
+
+&nbsp;
+
+ **ESP32 based energy monitor**
 
 Samples voltage and current waveform at 2500 Hz.
 The voltage waveform is sampled from an unloaded AC/AC 9v wallplug adapter and the current waveforms with current transformers clamped round the live (or neutral) conductors.
@@ -47,6 +55,8 @@ The full spec. of the ESP32:
 - Individual power domain for RTC
 - 5 μA deep sleep current
 - Wake up from GPIO interrupt, timer, ADC measurements, capacitive touch sensor interrupt
+
+Circuit design in [KiCad](https://www.kicad.org/)
 
 Case designs in [SolidWorks](https://www.solidworks.com/)
 
