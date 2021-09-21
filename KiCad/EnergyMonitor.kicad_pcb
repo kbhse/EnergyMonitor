@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 34)
+    (drawings 36)
     (tracks 132)
     (zones 0)
     (modules 58)
@@ -1408,6 +1408,26 @@
     (pad 6 thru_hole circle (at -11.43 -6.35 270) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
     (pad 4 thru_hole circle (at -11.43 -8.89 270) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
     (pad 2 thru_hole circle (at -11.43 -11.43 270) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
+    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x10_P2.54mm_Vertical.wrl
+      (offset (xyz -14 11.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x10_P2.54mm_Vertical.wrl
+      (offset (xyz -11.5 11.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x10_P2.54mm_Vertical.wrl
+      (offset (xyz 14 11.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x10_P2.54mm_Vertical.wrl
+      (offset (xyz 11.5 11.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MyFootprints:DC_Barrel_Jack_Socket (layer F.Cu) (tedit 6135D243) (tstamp 614A9051)
@@ -2043,7 +2063,7 @@
     (fp_text reference J7 (at 0 -2.33) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Conn_01x02 (at 0 4.87) (layer F.Fab)
+    (fp_text value Conn_01x02 (at 0 4.87) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.8 -1.8) (end -1.8 -1.8) (layer F.CrtYd) (width 0.05))
@@ -2587,10 +2607,16 @@
     )
   )
 
-  (gr_text "remove jumber if\npowered by USB" (at 140.6525 93.0275) (layer F.SilkS) (tstamp 614AA945)
+  (gr_text "3V3\nDC" (at 133.6675 97.155) (layer F.SilkS) (tstamp 614AB627)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "AC-AC\nmeasurement" (at 132.715 81.5975) (layer F.SilkS) (tstamp 614A9365)
+  (gr_text ESD (at 82.55 90.17) (layer F.SilkS) (tstamp 614AB5AE)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "remove jumper if\npowered by USB" (at 140.6525 92.71) (layer F.SilkS) (tstamp 614AA945)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "AC\nsampling" (at 131.7625 81.5975) (layer F.SilkS) (tstamp 614A9365)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_line (start 46.99 94.9325) (end 49.2125 94.9325) (layer F.SilkS) (width 0.12))
