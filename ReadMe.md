@@ -43,13 +43,13 @@ Specification:
 - CAN bus 2.0
 - Infrared remote controller (TX/RX, up to 8 channels)
 - Motor [PWM](https://en.wikipedia.org/wiki/Pulse-width_modulation)
-- LED [PWM](https://en.wikipedia.org/wiki/Pulse-width_modulation) (up to 16 channels)
+- LED PWM (up to 16 channels)
 - [Hall effect](https://en.wikipedia.org/wiki/Hall_effect) sensor
 - Ultra low power analog pre-amplifier
 - IEEE 802.11 standard security features all supported, including WPA, - WPA2, WPA3 and WAPI
 - Secure boot
 - Flash encryption
-- 1024-bit OTP
+- 1024-bit [OTP](https://en.wikipedia.org/wiki/One-time_password)
 - Cryptographic hardware acceleration: AES, SHA-2, RSA, elliptic curve cryptography (ECC), random number generator (RNG)
 - Internal low-dropout regulator
 - Individual power domain for [RTC](https://en.wikipedia.org/wiki/Real-time_clock)
