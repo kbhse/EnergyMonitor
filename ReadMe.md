@@ -28,23 +28,23 @@ Specification:
 - 520 KiB SRAM, 448 KiB ROM, 16 KiB SRAM in RTC
 - Ultra low power co-processor
 - Wi-Fi: 802.11 b/g/n
-- 34 × programmable GPIOs
-- 12-bit SAR ADC up to 18 channels
-- 2 × 8-bit DACs
+- 34 × programmable [GPIO](https://en.wikipedia.org/wiki/General-purpose_input/output)s
+- 12-bit SAR [ADC](https://en.wikipedia.org/wiki/Analog-to-digital_converter) up to 18 channels
+- 2 × 8-bit [DAC](https://en.wikipedia.org/wiki/Digital-to-analog_converter)s
 - 10 × touch sensors (capacitive sensing GPIOs)
-- 4 × SPI
-- 2 × I²S interfaces
-- 2 × I²C interfaces
-- 3 × UART
+- 4 × [SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface)
+- 2 × [I²S](https://en.wikipedia.org/wiki/I%C2%B2S) interfaces
+- 2 × [I²C](https://en.wikipedia.org/wiki/I%C2%B2C) interfaces
+- 3 × [UART](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter)
 - SD/SDIO/CE-ATA/MMC/eMMC host controller
 - SDIO/SPI slave controller
 - Ethernet MAC interface with dedicated DMA and IEEE 1588
 - Precision Time Protocol support
 - CAN bus 2.0
 - Infrared remote controller (TX/RX, up to 8 channels)
-- Motor PWM
-- LED PWM (up to 16 channels)
-- Hall effect sensor
+- Motor [PWM](https://en.wikipedia.org/wiki/Pulse-width_modulation)
+- LED [PWM](https://en.wikipedia.org/wiki/Pulse-width_modulation) (up to 16 channels)
+- [Hall effect](https://en.wikipedia.org/wiki/Hall_effect) sensor
 - Ultra low power analog pre-amplifier
 - IEEE 802.11 standard security features all supported, including WPA, - WPA2, WPA3 and WAPI
 - Secure boot
@@ -52,7 +52,7 @@ Specification:
 - 1024-bit OTP
 - Cryptographic hardware acceleration: AES, SHA-2, RSA, elliptic curve cryptography (ECC), random number generator (RNG)
 - Internal low-dropout regulator
-- Individual power domain for RTC
+- Individual power domain for [RTC](https://en.wikipedia.org/wiki/Real-time_clock)
 - 5 μA deep sleep current
 - Wake up from GPIO interrupt, timer, ADC measurements, capacitive touch sensor interrupt
 
