@@ -13925,7 +13925,7 @@ Text Notes 8400 4500 0    50   ~ 0
 Wemos I2C wiring
 Text Notes 9325 2950 0    50   ~ 0
 UM10204 I2C wiring
-Text Notes 7400 5450 0    100  ~ 0
+Text Notes -2325 5925 0    100  ~ 0
 Check Wemos I2C pinout !
 $Comp
 L MyComponents:AudioJack3_Ground_Switch_5_pin J8
@@ -13938,7 +13938,7 @@ F 3 "~" H 4900 3450 50  0001 C CNN
 	1    4900 3450
 	1    0    0    -1  
 $EndComp
-Text Notes 3500 4325 0    100  ~ 0
+Text Notes -3025 6300 0    100  ~ 0
 Should RN  be connected to ground?
 $Comp
 L MyComponents:AudioJack3_Ground_Switch_5_pin J9
@@ -13962,4 +13962,6 @@ F 3 "~" H 4900 4900 50  0001 C CNN
 	1    4900 4900
 	1    0    0    -1  
 $EndComp
+Text Notes -2575 6650 0    100  ~ 0
+trace width for burden circuits
 $EndSCHEMATC
