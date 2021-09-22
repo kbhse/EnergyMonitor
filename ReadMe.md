@@ -59,3 +59,7 @@ Specification:
 Case designs:
 
 ![image](https://user-images.githubusercontent.com/55367064/132191737-ac75240d-4bd4-4ac8-abb8-16fea45ae91d.png)
+
+PCB Design:
+
+![pcb 3D](https://user-images.githubusercontent.com/55367064/134268354-0a0a228f-f6de-4a86-b66d-278c3335d1ae.png)
