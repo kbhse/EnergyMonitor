@@ -58,9 +58,10 @@ Specification:
 
 Case designs (WIP):
 
-![image](https://user-images.githubusercontent.com/55367064/132191737-ac75240d-4bd4-4ac8-abb8-16fea45ae91d.png)
+
 
 PCB (WIP):
 
-![pcb 3D](https://user-images.githubusercontent.com/55367064/134291397-87889886-bf47-445b-92e7-996b2932ef74.png)
+![pcb 3D 02](https://user-images.githubusercontent.com/55367064/134313687-b815a11f-40ad-4976-baa9-fca12e518ac9.png)
 
+![pcb 3D](https://user-images.githubusercontent.com/55367064/134312810-ca264d10-ee58-454d-8dca-8b4cd3f751ab.png)
