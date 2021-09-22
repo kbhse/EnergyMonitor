@@ -64,4 +64,5 @@ PCB (WIP):
 
 ![pcb 3D 02](https://user-images.githubusercontent.com/55367064/134313687-b815a11f-40ad-4976-baa9-fca12e518ac9.png)
 
-![pcb 3D](https://user-images.githubusercontent.com/55367064/134312810-ca264d10-ee58-454d-8dca-8b4cd3f751ab.png)
+![pcb 3D](https://user-images.githubusercontent.com/55367064/134392814-adb162ed-1333-41db-9e65-bb87ebc232a4.png)
+
