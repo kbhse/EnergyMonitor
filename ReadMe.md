@@ -1,5 +1,7 @@
 ﻿![pcb 3D 02](https://user-images.githubusercontent.com/55367064/134435673-79699ef6-7a1e-47af-bfe8-e56b53812c9a.png)
  
+ &nbsp;
+ 
  * Schematic and PCB design in [KiCad](https://www.kicad.org/)
 
 * Hardware design in [SolidWorks](https://www.solidworks.com/domain/design-engineering)
