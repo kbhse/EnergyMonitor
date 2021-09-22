@@ -1,4 +1,6 @@
-﻿* Schematic and PCB design in [KiCad](https://www.kicad.org/)
+﻿![pcb 3D 02](https://user-images.githubusercontent.com/55367064/134435673-79699ef6-7a1e-47af-bfe8-e56b53812c9a.png)
+ 
+ * Schematic and PCB design in [KiCad](https://www.kicad.org/)
 
 * Hardware design in [SolidWorks](https://www.solidworks.com/domain/design-engineering)
 
@@ -62,7 +64,6 @@ Case designs (WIP):
 
 PCB (WIP):
 
-![pcb 3D 02](https://user-images.githubusercontent.com/55367064/134313687-b815a11f-40ad-4976-baa9-fca12e518ac9.png)
+![pcb 3D](https://user-images.githubusercontent.com/55367064/134435680-a4b14f23-92dc-42bc-8544-74525aaf0d03.png)
 
-![pcb 3D](https://user-images.githubusercontent.com/55367064/134392814-adb162ed-1333-41db-9e65-bb87ebc232a4.png)
 
