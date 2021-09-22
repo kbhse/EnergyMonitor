@@ -62,5 +62,5 @@ Case designs (WIP):
 
 PCB (WIP):
 
-<img width="723" alt="pcb 3D" src="https://user-images.githubusercontent.com/55367064/134285044-90796302-a36a-40bc-8478-cd156e66e7ca.png">
+![pcb 3D](https://user-images.githubusercontent.com/55367064/134291397-87889886-bf47-445b-92e7-996b2932ef74.png)
 
