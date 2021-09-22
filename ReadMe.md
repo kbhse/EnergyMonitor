@@ -56,6 +56,11 @@ Specification:
 - 5 μA deep sleep current
 - Wake up from GPIO interrupt, timer, ADC measurements, capacitive touch sensor interrupt
 
-Case designs:
+Case designs (WIP):
 
 ![image](https://user-images.githubusercontent.com/55367064/132191737-ac75240d-4bd4-4ac8-abb8-16fea45ae91d.png)
+
+PCB (WIP):
+
+![pcb 3D](https://user-images.githubusercontent.com/55367064/134291397-87889886-bf47-445b-92e7-996b2932ef74.png)
+
