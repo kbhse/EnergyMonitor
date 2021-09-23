@@ -70,6 +70,10 @@ PCB (WIP):
 
 ![pcb 3D](https://user-images.githubusercontent.com/55367064/134455899-b5a2f759-3f4f-47a7-922a-7198b395305f.png)
 
+board
+
+<img width="715" alt="board" src="https://user-images.githubusercontent.com/55367064/134480863-990e882d-5d6b-4542-9886-19c40e92c61d.PNG">
+
 Gnd
 
 <img width="589" alt="PCB_GND" src="https://user-images.githubusercontent.com/55367064/134479650-534d6b55-6360-41a6-abc7-d7ffed377a52.PNG">
