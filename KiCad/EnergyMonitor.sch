@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "ESP32 Energy Monitor"
-Date "2021-09-22"
+Date "2021-09-24"
 Rev "v1.0"
 Comp ""
 Comment1 ""
@@ -15,7 +15,7 @@ Comment4 "klomar"
 $EndDescr
 Text GLabel 1650 2725 0    50   Input ~ 0
 ADC1_CH6
-Text GLabel 1650 2325 0    50   Input ~ 0
+Text GLabel 1650 2525 0    50   Input ~ 0
 ADC1_CH7
 Text Notes 9850 5200 0    50   ~ 0
 Current Transformer\nYHDC SCT-013-00 CT
@@ -190,17 +190,6 @@ F 3 "" H 10050 2400 50  0001 C CNN
 	1    10050 2400
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GNDA #PWR024
-U 1 1 613562F0
-P 8325 2400
-F 0 "#PWR024" H 8325 2150 50  0001 C CNN
-F 1 "GNDA" H 8330 2227 50  0000 C CNN
-F 2 "" H 8325 2400 50  0001 C CNN
-F 3 "" H 8325 2400 50  0001 C CNN
-	1    8325 2400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8175 2300 8325 2300
 Wire Wire Line
@@ -360,9 +349,9 @@ Text Notes 1250 7500 0    50   ~ 0
 check these values !!
 Text Notes 4000 7550 0    50   ~ 0
 Remove Jumper\nif ESP32 powered\nby USB.
-Text GLabel 1650 2525 0    50   Input ~ 0
-ADC1_CH5
 Text GLabel 2450 2425 2    50   Input ~ 0
+ADC1_CH5
+Text GLabel 1650 2325 0    50   Input ~ 0
 ADC1_CH4
 Text GLabel 2450 2125 2    50   Input ~ 0
 I2C_SCL
@@ -13505,7 +13494,7 @@ U 1 1 6152D5EB
 P 8500 4850
 F 0 "J14" H 8580 4842 50  0000 L CNN
 F 1 "Conn_01x04" H 8580 4751 50  0000 L CNN
-F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 8500 4850 50  0001 C CNN
+F 2 "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" H 8500 4850 50  0001 C CNN
 F 3 "~" H 8500 4850 50  0001 C CNN
 	1    8500 4850
 	-1   0    0    1   
@@ -14145,4 +14134,122 @@ F 3 "" H 5525 6700 50  0001 C CNN
 $EndComp
 Text Notes 5875 7425 0    50   ~ 0
 red superbright LED\n0805 SMD\ngreen band -ve\n1k R => 1.4mA\n4K7 => 0.3mA\n@3.3v
+$Comp
+L power:GND #PWR0106
+U 1 1 6153C70C
+P 8325 2400
+F 0 "#PWR0106" H 8325 2150 50  0001 C CNN
+F 1 "GND" H 8330 2227 50  0000 C CNN
+F 2 "" H 8325 2400 50  0001 C CNN
+F 3 "" H 8325 2400 50  0001 C CNN
+	1    8325 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 61546152
+P 8725 5850
+F 0 "#PWR0107" H 8725 5600 50  0001 C CNN
+F 1 "GND" H 8730 5677 50  0000 C CNN
+F 2 "" H 8725 5850 50  0001 C CNN
+F 3 "" H 8725 5850 50  0001 C CNN
+	1    8725 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR0108
+U 1 1 61546DE3
+P 8425 5850
+F 0 "#PWR0108" H 8425 5600 50  0001 C CNN
+F 1 "GNDA" H 8430 5677 50  0000 C CNN
+F 2 "" H 8425 5850 50  0001 C CNN
+F 3 "" H 8425 5850 50  0001 C CNN
+	1    8425 5850
+	1    0    0    -1  
+$EndComp
+Text Notes 12275 4825 0    50   ~ 0
+Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical
+$Comp
+L Device:R R32
+U 1 1 6154DEF5
+P 8575 5700
+F 0 "R32" V 8575 5375 50  0000 L CNN
+F 1 "0R" V 8575 5650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8505 5700 50  0001 C CNN
+F 3 "~" H 8575 5700 50  0001 C CNN
+	1    8575 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R31
+U 1 1 6154EEF3
+P 8575 5575
+F 0 "R31" V 8575 5250 50  0000 L CNN
+F 1 "0R" V 8575 5525 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8505 5575 50  0001 C CNN
+F 3 "~" H 8575 5575 50  0001 C CNN
+	1    8575 5575
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R30
+U 1 1 615542A9
+P 8575 5450
+F 0 "R30" V 8575 5125 50  0000 L CNN
+F 1 "0R" V 8575 5400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8505 5450 50  0001 C CNN
+F 3 "~" H 8575 5450 50  0001 C CNN
+	1    8575 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 61554A8F
+P 8575 5325
+F 0 "R15" V 8575 5000 50  0000 L CNN
+F 1 "0R" V 8575 5275 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8505 5325 50  0001 C CNN
+F 3 "~" H 8575 5325 50  0001 C CNN
+	1    8575 5325
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8725 5325 8725 5450
+Wire Wire Line
+	8725 5450 8725 5575
+Connection ~ 8725 5450
+Wire Wire Line
+	8725 5575 8725 5700
+Connection ~ 8725 5575
+Wire Wire Line
+	8725 5700 8725 5850
+Connection ~ 8725 5700
+Wire Wire Line
+	8425 5850 8425 5700
+Wire Wire Line
+	8425 5700 8425 5575
+Connection ~ 8425 5700
+Wire Wire Line
+	8425 5575 8425 5450
+Connection ~ 8425 5575
+Wire Wire Line
+	8425 5450 8425 5325
+Connection ~ 8425 5450
+$Comp
+L Device:R R33
+U 1 1 615B1549
+P 8575 5200
+F 0 "R33" V 8575 4875 50  0000 L CNN
+F 1 "0R" V 8575 5150 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8505 5200 50  0001 C CNN
+F 3 "~" H 8575 5200 50  0001 C CNN
+	1    8575 5200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8725 5200 8725 5325
+Connection ~ 8725 5325
+Wire Wire Line
+	8425 5200 8425 5325
+Connection ~ 8425 5325
 $EndSCHEMATC
