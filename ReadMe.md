@@ -73,12 +73,16 @@ PCB (WIP):
 
 board
 
-<img width="715" alt="board" src="https://user-images.githubusercontent.com/55367064/134480863-990e882d-5d6b-4542-9886-19c40e92c61d.PNG">
+<img width="679" alt="board" src="https://user-images.githubusercontent.com/55367064/134617029-3283c84b-5ee3-41d7-9de8-295b7c8eea00.PNG">
 
 Gnd
 
-<img width="589" alt="PCB_GND" src="https://user-images.githubusercontent.com/55367064/134479650-534d6b55-6360-41a6-abc7-d7ffed377a52.PNG">
+<img width="670" alt="PCB_GND" src="https://user-images.githubusercontent.com/55367064/134617065-22ea871d-b3a8-47aa-9c33-8f1acb50483e.PNG">
 
 GndA
 
-<img width="597" alt="PCB_GNDA" src="https://user-images.githubusercontent.com/55367064/134479672-3332be63-f8ea-4ae7-91d0-89fab06c0203.PNG">
+<img width="691" alt="PCB_GNDA" src="https://user-images.githubusercontent.com/55367064/134617094-71187e13-d7b2-4a73-8892-db162916974a.PNG">
+
+VDD
+
+<img width="685" alt="PCB_VDD" src="https://user-images.githubusercontent.com/55367064/134617104-27970951-2c84-4b43-ae67-7691dbb59502.PNG">
