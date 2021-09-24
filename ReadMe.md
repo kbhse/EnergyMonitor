@@ -75,13 +75,13 @@ board
 
 <img width="679" alt="board" src="https://user-images.githubusercontent.com/55367064/134617029-3283c84b-5ee3-41d7-9de8-295b7c8eea00.PNG">
 
-Gnd
-
-<img width="670" alt="PCB_GND" src="https://user-images.githubusercontent.com/55367064/134617065-22ea871d-b3a8-47aa-9c33-8f1acb50483e.PNG">
-
 GndA
 
 <img width="691" alt="PCB_GNDA" src="https://user-images.githubusercontent.com/55367064/134617094-71187e13-d7b2-4a73-8892-db162916974a.PNG">
+
+Gnd
+
+<img width="670" alt="PCB_GND" src="https://user-images.githubusercontent.com/55367064/134617065-22ea871d-b3a8-47aa-9c33-8f1acb50483e.PNG">
 
 VDD
 
