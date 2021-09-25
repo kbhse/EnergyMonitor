@@ -1,4 +1,4 @@
-﻿![pcb 3D 02](https://user-images.githubusercontent.com/55367064/134754610-ee8459ae-ba4b-4025-921b-d3d2926e2119.png)
+﻿![pcb 3D 02](https://user-images.githubusercontent.com/55367064/134765160-7b29ae4b-7af9-4fbc-8f79-2c533ae43f27.png)
 
  &nbsp;
  
@@ -68,7 +68,7 @@ Case designs (WIP):
 
 PCB (WIP):
 
-![pcb 3D](https://user-images.githubusercontent.com/55367064/134754621-bbb56f1d-230c-483e-bda7-0b0d79e93f55.png)
+![pcb 3D](https://user-images.githubusercontent.com/55367064/134765175-a1293b8c-6901-44e7-b8c2-638fda9a009c.png)
 
 board
 
