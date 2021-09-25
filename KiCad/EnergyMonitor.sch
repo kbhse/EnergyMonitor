@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "ESP32 Energy Monitor"
-Date "2021-09-24"
+Date "2021-09-25"
 Rev "v1.0"
 Comp ""
 Comment1 ""
@@ -14352,7 +14352,7 @@ U 1 1 614F478A
 P 3925 2675
 F 0 "J17" H 3925 2250 50  0000 C CNN
 F 1 "Conn_01x06" V 4050 2600 50  0000 C CNN
-F 2 "" H 3925 2675 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 3925 2675 50  0001 C CNN
 F 3 "~" H 3925 2675 50  0001 C CNN
 	1    3925 2675
 	1    0    0    1   
