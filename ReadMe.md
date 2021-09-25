@@ -1,6 +1,5 @@
-﻿![pcb 3D 02](https://user-images.githubusercontent.com/55367064/134604531-cfa0e885-0fdc-4276-accc-0d4690bb62d5.png)
+﻿![pcb 3D 02](https://user-images.githubusercontent.com/55367064/134754610-ee8459ae-ba4b-4025-921b-d3d2926e2119.png)
 
- 
  &nbsp;
  
  * Schematic and PCB design in [KiCad](https://www.kicad.org/)
@@ -69,7 +68,7 @@ Case designs (WIP):
 
 PCB (WIP):
 
-![pcb 3D](https://user-images.githubusercontent.com/55367064/134604511-3e725ed2-151c-4d7f-af64-9ced358b8110.png)
+![pcb 3D](https://user-images.githubusercontent.com/55367064/134754621-bbb56f1d-230c-483e-bda7-0b0d79e93f55.png)
 
 board
 
