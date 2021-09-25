@@ -289,12 +289,12 @@ Connection ~ 2400 7050
 $Comp
 L Connector_Generic:Conn_01x02 J7
 U 1 1 613318AE
-P 3875 6850
-F 0 "J7" V 3839 6662 50  0000 R CNN
-F 1 "Conn_01x02" V 3748 6662 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3875 6850 50  0001 C CNN
-F 3 "~" H 3875 6850 50  0001 C CNN
-	1    3875 6850
+P 4350 6850
+F 0 "J7" V 4314 6662 50  0000 R CNN
+F 1 "Conn_01x02" V 4223 6662 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4350 6850 50  0001 C CNN
+F 3 "~" H 4350 6850 50  0001 C CNN
+	1    4350 6850
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -311,7 +311,7 @@ $EndComp
 Wire Wire Line
 	3350 7050 3575 7050
 Wire Wire Line
-	3575 7050 3875 7050
+	3575 7050 4100 7050
 Connection ~ 3575 7050
 $Comp
 L power:GND #PWR07
@@ -329,25 +329,25 @@ Text Notes 2600 6875 0    50   ~ 0
 $Comp
 L power:+3V3 #PWR08
 U 1 1 61337478
-P 4575 6775
-F 0 "#PWR08" H 4575 6625 50  0001 C CNN
-F 1 "+3V3" H 4590 6948 50  0000 C CNN
-F 2 "" H 4575 6775 50  0001 C CNN
-F 3 "" H 4575 6775 50  0001 C CNN
-	1    4575 6775
+P 5050 6775
+F 0 "#PWR08" H 5050 6625 50  0001 C CNN
+F 1 "+3V3" H 5065 6948 50  0000 C CNN
+F 2 "" H 5050 6775 50  0001 C CNN
+F 3 "" H 5050 6775 50  0001 C CNN
+	1    5050 6775
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3975 7050 4575 7050
+	4450 7050 5050 7050
 Wire Wire Line
-	4575 7050 4575 6775
-Text Notes 3775 6750 0    50   ~ 0
+	5050 7050 5050 6775
+Text Notes 4250 6750 0    50   ~ 0
 Jumper
 Text Notes 1250 6600 0    100  ~ 0
 AC-DC Power
 Text Notes 1250 7500 0    50   ~ 0
 check these values !!
-Text Notes 4000 7550 0    50   ~ 0
+Text Notes 4275 6625 0    50   ~ 0
 Remove Jumper\nif ESP32 powered\nby USB.
 Text GLabel 2450 2425 2    50   Input ~ 0
 ADC1_CH5
@@ -13039,10 +13039,6 @@ Wire Wire Line
 	9700 3450 10200 3450
 Wire Wire Line
 	10200 3450 10200 3300
-Text GLabel 10350 3550 2    50   Input ~ 0
-GND
-Text GLabel 10350 3450 2    50   Input ~ 0
-+3V3
 $Comp
 L power:GND #PWR018
 U 1 1 61394844
@@ -14367,4 +14363,79 @@ Wire Wire Line
 	3650 2375 3725 2375
 Text Notes 3775 3050 0    50   ~ 0
 GPIO/SPI
+Text Notes 2525 6400 0    50   ~ 0
+H7333  Input voltage 12V\nabsolute maximum 14V
+Text Notes 2525 6525 0    50   ~ 0
+Test this !!!
+$Comp
+L Device:CP C11
+U 1 1 615002E0
+P 4100 7200
+F 0 "C11" H 4218 7246 50  0000 L CNN
+F 1 "10uF" H 4218 7155 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.9" H 4138 7050 50  0001 C CNN
+F 3 "~" H 4100 7200 50  0001 C CNN
+	1    4100 7200
+	1    0    0    -1  
+$EndComp
+Connection ~ 4100 7050
+Wire Wire Line
+	4100 7050 4350 7050
+$Comp
+L power:GND #PWR0113
+U 1 1 6150D208
+P 4100 7350
+F 0 "#PWR0113" H 4100 7100 50  0001 C CNN
+F 1 "GND" H 4105 7177 50  0000 C CNN
+F 2 "" H 4100 7350 50  0001 C CNN
+F 3 "" H 4100 7350 50  0001 C CNN
+	1    4100 7350
+	1    0    0    -1  
+$EndComp
+Text Notes 4225 7475 0    50   ~ 0
+provision for electrolytic\noutput capacitor?
+Wire Notes Line
+	3950 7000 4225 7000
+Wire Notes Line
+	4225 7000 4225 7100
+Wire Notes Line
+	4225 7100 4450 7100
+Wire Notes Line
+	4450 7100 4450 7250
+Wire Notes Line
+	4450 7250 5200 7250
+Wire Notes Line
+	5200 7250 5200 7600
+Wire Notes Line
+	5200 7600 3950 7600
+Wire Notes Line
+	3950 7600 3950 7000
+NoConn ~ 2450 1725
+NoConn ~ 2450 1925
+NoConn ~ 2450 2025
+NoConn ~ 1650 1825
+NoConn ~ 1650 2025
+NoConn ~ 1650 2125
+NoConn ~ 1650 2225
+NoConn ~ 2450 2225
+NoConn ~ 2450 2625
+NoConn ~ 2450 2725
+NoConn ~ 2450 2825
+NoConn ~ 1650 2925
+NoConn ~ 1650 3100
+NoConn ~ 1650 3325
+NoConn ~ 1650 3425
+NoConn ~ 1650 3525
+NoConn ~ 1650 3625
+NoConn ~ 2450 3625
+NoConn ~ 2450 3525
+NoConn ~ 2450 3425
+NoConn ~ 2450 3325
+NoConn ~ 2450 3225
+NoConn ~ 2450 3125
+NoConn ~ 2450 3025
+NoConn ~ 5100 3550
+NoConn ~ 5100 2100
+NoConn ~ 5100 5000
+NoConn ~ 2450 2525
 $EndSCHEMATC
