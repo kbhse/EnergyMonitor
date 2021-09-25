@@ -85,3 +85,8 @@ Gnd
 VDD
 
 <img width="685" alt="PCB_VDD" src="https://user-images.githubusercontent.com/55367064/134617104-27970951-2c84-4b43-ae67-7691dbb59502.PNG">
+
+JLCPCB Fabrication
+
+<img width="546" alt="pcb" src="https://user-images.githubusercontent.com/55367064/134781287-d7539b4a-7ff7-4a55-a634-115ddfe522a9.png">
+
