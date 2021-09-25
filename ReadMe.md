@@ -62,11 +62,7 @@ Specification:
 
 &nbsp;
 
-Case designs (WIP):
-
-&nbsp;
-
-PCB (WIP):
+PCB:
 
 ![pcb 3D](https://user-images.githubusercontent.com/55367064/134765175-a1293b8c-6901-44e7-b8c2-638fda9a009c.png)
 
@@ -91,3 +87,7 @@ VDD
 <img width="546" alt="pcb" src="https://user-images.githubusercontent.com/55367064/134781287-d7539b4a-7ff7-4a55-a634-115ddfe522a9.png">
 
 <img width="542" alt="pcb_bottom" src="https://user-images.githubusercontent.com/55367064/134781386-7f726a76-0ca0-4074-8028-04143be2370b.png">
+
+&nbsp;
+
+Case design (WIP):
