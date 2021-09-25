@@ -1,4 +1,4 @@
-﻿![pcb 3D 02](https://user-images.githubusercontent.com/55367064/134765160-7b29ae4b-7af9-4fbc-8f79-2c533ae43f27.png)
+﻿![pcb 3D 02](https://user-images.githubusercontent.com/55367064/134765366-9d7ec94d-b5b2-4769-aba5-f603bd3f5534.png)
 
  &nbsp;
  
