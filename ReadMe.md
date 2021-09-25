@@ -1,4 +1,4 @@
-﻿![pcb 3D 02](https://user-images.githubusercontent.com/55367064/134754610-ee8459ae-ba4b-4025-921b-d3d2926e2119.png)
+﻿![pcb 3D 02](https://user-images.githubusercontent.com/55367064/134765366-9d7ec94d-b5b2-4769-aba5-f603bd3f5534.png)
 
  &nbsp;
  
@@ -62,26 +62,32 @@ Specification:
 
 &nbsp;
 
-Case designs (WIP):
+PCB:
 
-&nbsp;
-
-PCB (WIP):
-
-![pcb 3D](https://user-images.githubusercontent.com/55367064/134754621-bbb56f1d-230c-483e-bda7-0b0d79e93f55.png)
+![pcb 3D](https://user-images.githubusercontent.com/55367064/134765175-a1293b8c-6901-44e7-b8c2-638fda9a009c.png)
 
 board
 
-<img width="679" alt="board" src="https://user-images.githubusercontent.com/55367064/134617029-3283c84b-5ee3-41d7-9de8-295b7c8eea00.PNG">
+![board](https://user-images.githubusercontent.com/55367064/134782551-229b2f78-36bf-4632-b27a-115d49d78b70.PNG)
 
 GndA
 
-<img width="691" alt="PCB_GNDA" src="https://user-images.githubusercontent.com/55367064/134617094-71187e13-d7b2-4a73-8892-db162916974a.PNG">
+![PCB_GNDA](https://user-images.githubusercontent.com/55367064/134782560-b26a84cc-c740-4f06-922f-aebcfefaf099.PNG)
 
 Gnd
 
-<img width="670" alt="PCB_GND" src="https://user-images.githubusercontent.com/55367064/134617065-22ea871d-b3a8-47aa-9c33-8f1acb50483e.PNG">
+![PCB_GND](https://user-images.githubusercontent.com/55367064/134782573-17bbd3be-62b0-4b7b-ba2d-57b01e19c491.PNG)
 
 VDD
 
-<img width="685" alt="PCB_VDD" src="https://user-images.githubusercontent.com/55367064/134617104-27970951-2c84-4b43-ae67-7691dbb59502.PNG">
+![PCB_VDD](https://user-images.githubusercontent.com/55367064/134782582-cfb6c086-5079-4213-93d1-5d87a2c2150f.PNG)
+
+[JLCPCB](https://jlcpcb.com/) Fabrication
+
+<img width="546" alt="pcb" src="https://user-images.githubusercontent.com/55367064/134781287-d7539b4a-7ff7-4a55-a634-115ddfe522a9.png">
+
+<img width="542" alt="pcb_bottom" src="https://user-images.githubusercontent.com/55367064/134781386-7f726a76-0ca0-4074-8028-04143be2370b.png">
+
+&nbsp;
+
+Case design (WIP):
