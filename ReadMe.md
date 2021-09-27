@@ -78,15 +78,13 @@ Gnd
 
 ![PCB_GND](https://user-images.githubusercontent.com/55367064/134782573-17bbd3be-62b0-4b7b-ba2d-57b01e19c491.PNG)
 
-VDD
-
-![PCB_VDD](https://user-images.githubusercontent.com/55367064/134782582-cfb6c086-5079-4213-93d1-5d87a2c2150f.PNG)
-
 [JLCPCB](https://jlcpcb.com/) Fabrication
 
 <img width="546" alt="pcb" src="https://user-images.githubusercontent.com/55367064/134781287-d7539b4a-7ff7-4a55-a634-115ddfe522a9.png">
 
 <img width="542" alt="pcb_bottom" src="https://user-images.githubusercontent.com/55367064/134781386-7f726a76-0ca0-4074-8028-04143be2370b.png">
+
+<img width="370" alt="Production Progress" src="https://user-images.githubusercontent.com/55367064/134845648-1091badc-7490-4457-b880-18e126820f24.PNG">
 
 &nbsp;
 
