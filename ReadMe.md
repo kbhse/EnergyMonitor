@@ -2,7 +2,7 @@
 
  &nbsp;
  
- * Schematic and PCB design in [KiCad](https://www.kicad.org/)
+* Schematic and PCB design in [KiCad](https://www.kicad.org/)
 
 * Hardware design in [SolidWorks](https://www.solidworks.com/domain/design-engineering)
 
@@ -92,6 +92,7 @@ Gnd
 
 Case design (WIP):
 
+CAD: [SolidWorks](https://www.solidworks.com/domain/design-engineering),
 Printer: [Prusa i3 MK3S+](https://www.prusa3d.com),
 Slicer: [PrusaSlicer](https://www.prusa3d.com/prusaslicer/),
 Material: E-DA [PLA](https://en.wikipedia.org/wiki/Polylactic_acid),
@@ -100,7 +101,7 @@ Layer Height: 0.2mm,
 Infill: 15% Cubic,
 Support: optional,
 Filament: 21m, 63g,
-Print Time: 5hr 48m,
+Print Time: 5hr 48m
 
 
 ![EnergyMonitor Case v1 0 transparent](https://user-images.githubusercontent.com/55367064/134991820-5bcb978c-53de-4297-b27f-e5f7fc120986.PNG)
