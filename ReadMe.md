@@ -92,6 +92,17 @@ Gnd
 
 Case design (WIP):
 
+Printer: [Prusa i3 MK3S+](https://www.prusa3d.com)
+Slicer: [PrusaSlicer](https://www.prusa3d.com/prusaslicer/)
+Material: E-DA [PLA](https://en.wikipedia.org/wiki/Polylactic_acid)
+Nozzle: 0.4mm
+Layer Height: 0.2mm
+Infill: 15% Cubic
+Support: optional
+Filament: 21m, 63g
+Print Time: 5hr 48m
+
+
 ![EnergyMonitor Case v1 0 transparent](https://user-images.githubusercontent.com/55367064/134991820-5bcb978c-53de-4297-b27f-e5f7fc120986.PNG)
 
 ![EnergyMonitor Case v1 0](https://user-images.githubusercontent.com/55367064/134991808-6dae209f-b7b9-4c71-9bd3-e1894fae11fc.PNG)
