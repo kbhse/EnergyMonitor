@@ -103,6 +103,8 @@ Support: optional,
 Filament: 21m, 63g,
 Print Time: 5hr 48m
 
+Dimensions (LxWxH): 110x58x35 mm
+
 
 ![EnergyMonitor Case v1 0 transparent](https://user-images.githubusercontent.com/55367064/134991820-5bcb978c-53de-4297-b27f-e5f7fc120986.PNG)
 
