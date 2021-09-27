@@ -70,15 +70,15 @@ PCB:
 
 board
 
-![board](https://user-images.githubusercontent.com/55367064/134782551-229b2f78-36bf-4632-b27a-115d49d78b70.PNG)
+<img width="462" alt="board" src="https://user-images.githubusercontent.com/55367064/134846550-12b567bc-c7e9-418f-96ce-015fa439d6dc.PNG">
 
 GndA
 
-![PCB_GNDA](https://user-images.githubusercontent.com/55367064/134782560-b26a84cc-c740-4f06-922f-aebcfefaf099.PNG)
+<img width="462" alt="PCB_GNDA" src="https://user-images.githubusercontent.com/55367064/134846592-3d94f9c1-bd92-44a2-a5b3-03a1285a8dca.PNG">
 
 Gnd
 
-![PCB_GND](https://user-images.githubusercontent.com/55367064/134782573-17bbd3be-62b0-4b7b-ba2d-57b01e19c491.PNG)
+<img width="462" alt="PCB_GND" src="https://user-images.githubusercontent.com/55367064/134846663-1a6ab48c-fbf4-43e4-b171-447b55c6f775.PNG">
 
 [JLCPCB](https://jlcpcb.com/) Fabrication
 
