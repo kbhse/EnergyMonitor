@@ -35,7 +35,7 @@ Specification:
 - Ultra low power co-processor
 - Wi-Fi: 802.11 b/g/n
 - 34 × programmable [GPIO](https://en.wikipedia.org/wiki/General-purpose_input/output)s
-- 12-bit SAR [ADC](https://en.wikipedia.org/wiki/Analog-to-digital_converter) up to 18 channels
+- 12-bit [SAR ADC](https://en.wikipedia.org/wiki/Successive-approximation_ADC) up to 18 channels
 - 2 × 8-bit [DAC](https://en.wikipedia.org/wiki/Digital-to-analog_converter)s
 - 10 × touch sensors (capacitive sensing GPIOs)
 - 4 × [SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface)
