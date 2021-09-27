@@ -64,7 +64,7 @@ Specification:
 
 &nbsp;
 
-PCB:
+**PCB:**
 
 ![pcb 3D](https://user-images.githubusercontent.com/55367064/134765175-a1293b8c-6901-44e7-b8c2-638fda9a009c.png)
 
@@ -90,7 +90,7 @@ Gnd
 
 &nbsp;
 
-Case design (WIP):
+**Case design** (WIP):
 
 CAD: [SolidWorks](https://www.solidworks.com/domain/design-engineering),
 Printer: [Prusa i3 MK3S+](https://www.prusa3d.com),
