@@ -92,9 +92,11 @@ Gnd
 
 Case design (WIP):
 
+![EnergyMonitor Case v1 0 transparent](https://user-images.githubusercontent.com/55367064/134991820-5bcb978c-53de-4297-b27f-e5f7fc120986.PNG)
+
 ![EnergyMonitor Case v1 0](https://user-images.githubusercontent.com/55367064/134991808-6dae209f-b7b9-4c71-9bd3-e1894fae11fc.PNG)
 
-![EnergyMonitor Case v1 0 transparent](https://user-images.githubusercontent.com/55367064/134991820-5bcb978c-53de-4297-b27f-e5f7fc120986.PNG)
+
 
 
 
