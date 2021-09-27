@@ -8,7 +8,7 @@
 
 * C++ code on [PlatformIO](https://docs.platformio.org/en/latest/what-is-platformio.html) IDE
 
-* 3D prints: [Prusa i3 MK3S+](https://www.prusa3d.com)
+* 3D prints [Prusa i3 MK3S+](https://www.prusa3d.com)
 
 &nbsp;
 
