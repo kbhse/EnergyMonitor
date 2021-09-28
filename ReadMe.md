@@ -66,6 +66,9 @@ Specification:
 
 **PCB:**
 
+- CAD: [KiCad](https://www.kicad.org/)
+- Production: [JLCPCB](https://jlcpcb.com/)
+
 ![pcb 3D](https://user-images.githubusercontent.com/55367064/134765175-a1293b8c-6901-44e7-b8c2-638fda9a009c.png)
 
 board
@@ -80,7 +83,7 @@ Gnd
 
 <img width="462" alt="PCB_GND" src="https://user-images.githubusercontent.com/55367064/134846663-1a6ab48c-fbf4-43e4-b171-447b55c6f775.PNG">
 
-[JLCPCB](https://jlcpcb.com/) Fabrication
+[JLCPCB](https://jlcpcb.com/)
 
 <img width="546" alt="pcb" src="https://user-images.githubusercontent.com/55367064/134781287-d7539b4a-7ff7-4a55-a634-115ddfe522a9.png">
 
@@ -92,18 +95,18 @@ Gnd
 
 **Case design** (WIP):
 
-CAD: [SolidWorks](https://www.solidworks.com/domain/design-engineering),
-Printer: [Prusa i3 MK3S+](https://www.prusa3d.com),
-Slicer: [PrusaSlicer](https://www.prusa3d.com/prusaslicer/),
-Material: E-DA [PLA](https://en.wikipedia.org/wiki/Polylactic_acid),
-Nozzle: 0.4mm,
-Layer Height: 0.2mm,
-Infill: 15% Cubic,
-Support: optional,
-Filament: 21m, 63g,
-Print Time: 5hr 48m
+- CAD: [SolidWorks](https://www.solidworks.com/domain/design-engineering)
+- Printer: [Prusa i3 MK3S+](https://www.prusa3d.com)
+- Slicer: [PrusaSlicer](https://www.prusa3d.com/prusaslicer/)
+- Material: E-DA [PLA](https://en.wikipedia.org/wiki/Polylactic_acid)
+- Nozzle: 0.4mm
+- Layer Height: 0.2mm
+- Infill: 20% Ccubic
+- Support: optional
+- Filament: 21m, 63g
+- Print Time: 5hr 48m
 
-Dimensions (LxWxH): 110x58x35 mm
+- Dimensions (LxWxH): 110x58x35 mm
 
 
 ![EnergyMonitor Case v1 0 transparent](https://user-images.githubusercontent.com/55367064/134991820-5bcb978c-53de-4297-b27f-e5f7fc120986.PNG)
