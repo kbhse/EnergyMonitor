@@ -106,7 +106,7 @@ Printer: [Prusa i3 MK3S+](https://www.prusa3d.com)
 - Material: E-DA [PLA](https://en.wikipedia.org/wiki/Polylactic_acid)
 - Nozzle: 0.4mm
 - Layer Height: 0.2mm
-- Infill: 20% Ccubic
+- Infill: 20% cubic
 - Support: optional
 - Filament: 21m, 63g
 - Print Time: 5hr 48m
