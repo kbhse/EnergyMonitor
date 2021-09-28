@@ -92,7 +92,6 @@ Gnd
 <img width="542" alt="pcb_bottom" src="https://user-images.githubusercontent.com/55367064/134781386-7f726a76-0ca0-4074-8028-04143be2370b.png">
 
 <img width="370" alt="Production Progress" src="https://user-images.githubusercontent.com/55367064/134845648-1091badc-7490-4457-b880-18e126820f24.PNG">
-
 &nbsp;
 
 **Case design** (WIP):
