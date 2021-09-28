@@ -89,8 +89,6 @@ Gnd
 
 <img width="546" alt="pcb" src="https://user-images.githubusercontent.com/55367064/134781287-d7539b4a-7ff7-4a55-a634-115ddfe522a9.png">
 
-<img width="542" alt="pcb_bottom" src="https://user-images.githubusercontent.com/55367064/134781386-7f726a76-0ca0-4074-8028-04143be2370b.png">
-
 <img width="359" alt="Production Progress" src="https://user-images.githubusercontent.com/55367064/135005775-09162670-991e-4dd4-a174-add1f99c6730.PNG">
 
 &nbsp;
