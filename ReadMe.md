@@ -58,7 +58,7 @@ Specification:
 - [Secure boot](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/security/secure-boot-v1.html)
 - [Flash encryption](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/security/flash-encryption.html)
 - 1024-bit [OTP](https://en.wikipedia.org/wiki/One-time_password)
-- Cryptographic hardware acceleration: AES, SHA-2, RSA, elliptic curve cryptography (ECC), random number generator (RNG)
+- Cryptographic hardware acceleration: [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard), [SHA-2](https://en.wikipedia.org/wiki/SHA-2), [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem)), [elliptic curve cryptography (ECC)](https://en.wikipedia.org/wiki/Elliptic-curve_cryptography), [random number generator (RNG)](https://en.wikipedia.org/wiki/Random_number_generation)
 - Internal low-dropout regulator
 - Individual power domain for [RTC](https://en.wikipedia.org/wiki/Real-time_clock)
 - 5 μA deep sleep current
