@@ -54,9 +54,9 @@ Specification:
 - LED PWM (up to 16 channels)
 - [Hall effect](https://en.wikipedia.org/wiki/Hall_effect) sensor
 - Ultra low power analog pre-amplifier
-- IEEE 802.11 standard security features all supported, including WPA, - WPA2, WPA3 and WAPI
-- Secure boot
-- Flash encryption
+- IEEE 802.11 standard security features all supported, including [WPA](https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access), - [WPA2](https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access), [WPA3](https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access) and [WAPI](https://en.wikipedia.org/wiki/WLAN_Authentication_and_Privacy_Infrastructure)
+- [Secure boot](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/security/secure-boot-v1.html)
+- [Flash encryption](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/security/flash-encryption.html)
 - 1024-bit [OTP](https://en.wikipedia.org/wiki/One-time_password)
 - Cryptographic hardware acceleration: AES, SHA-2, RSA, elliptic curve cryptography (ECC), random number generator (RNG)
 - Internal low-dropout regulator
