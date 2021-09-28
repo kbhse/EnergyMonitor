@@ -15,7 +15,9 @@
  **ESP32 based energy monitor**
 
 Samples voltage and current waveform at 2500 Hz.
-The voltage waveform is sampled from an unloaded AC/AC 9v wallplug adapter and the current waveforms with current transformers clamped round live (or neutral) conductors.
+The voltage waveform is sampled from an AC/AC 9v wallplug adapter and the current waveforms with current transformers clamped round live (or neutral) conductors.
+
+Capacity: 240v, 3 circuits up tp 95 amps each.
 
 Intergrated into a [MQTT](https://en.wikipedia.org/wiki/MQTT) [IoT](https://en.wikipedia.org/wiki/Internet_of_things) sensor network with [Node-RED](https://nodered.org/), [InfluxDB](https://www.influxdata.com/) and [Grafana](https://grafana.com/) servers.
 
