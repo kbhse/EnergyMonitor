@@ -59,7 +59,7 @@ Specification:
 - [Flash encryption](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/security/flash-encryption.html)
 - 1024-bit [OTP](https://en.wikipedia.org/wiki/One-time_password)
 - Cryptographic hardware acceleration: [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard), [SHA-2](https://en.wikipedia.org/wiki/SHA-2), [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem)), [elliptic curve cryptography (ECC)](https://en.wikipedia.org/wiki/Elliptic-curve_cryptography), [random number generator (RNG)](https://en.wikipedia.org/wiki/Random_number_generation)
-- Internal low-dropout regulator
+- Internal [low-dropout regulator](https://en.wikipedia.org/wiki/Low-dropout_regulator)
 - Individual power domain for [RTC](https://en.wikipedia.org/wiki/Real-time_clock)
 - 5 μA deep sleep current
 - Wake up from GPIO interrupt, timer, ADC measurements, capacitive touch sensor interrupt
