@@ -98,8 +98,11 @@ Gnd
 **Case design** (WIP):
 
 CAD: [SolidWorks](https://www.solidworks.com/domain/design-engineering)
+
 Slicer: [PrusaSlicer](https://www.prusa3d.com/prusaslicer/)
+
 Printer: [Prusa i3 MK3S+](https://www.prusa3d.com)
+
 - Material: E-DA [PLA](https://en.wikipedia.org/wiki/Polylactic_acid)
 - Nozzle: 0.4mm
 - Layer Height: 0.2mm
