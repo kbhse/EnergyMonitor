@@ -112,11 +112,8 @@ Printer: [Prusa i3 MK3S+](https://www.prusa3d.com)
 Dimensions (LxWxH): 110x58x35 mm
 
 
-![EnergyMonitor Case v1 0 transparent](https://user-images.githubusercontent.com/55367064/134991820-5bcb978c-53de-4297-b27f-e5f7fc120986.PNG)
+![EnergyMonitor Case v1 2 transparent](https://user-images.githubusercontent.com/55367064/135209713-dddbab0a-3f59-4c7b-b7a5-4e5c81416ba4.PNG)
 
-![EnergyMonitor Case v1 0](https://user-images.githubusercontent.com/55367064/134991808-6dae209f-b7b9-4c71-9bd3-e1894fae11fc.PNG)
-
-
-
+![EnergyMonitor Case v1 2](https://user-images.githubusercontent.com/55367064/135209720-03665ac3-10e3-4ed1-92dd-f5c1589561a2.PNG)
 
 
