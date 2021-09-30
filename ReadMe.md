@@ -48,7 +48,7 @@ Specification:
 - SDIO/SPI slave controller
 - Ethernet MAC interface with dedicated DMA and IEEE 1588
 - Precision Time Protocol support
-- CAN bus 2.0
+- [CAN bus 2.0](https://en.wikipedia.org/wiki/CAN_bus)
 - Infrared remote controller (TX/RX, up to 8 channels)
 - Motor [PWM](https://en.wikipedia.org/wiki/Pulse-width_modulation)
 - LED PWM (up to 16 channels)
