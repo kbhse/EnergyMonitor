@@ -91,6 +91,10 @@ Gnd
 
 <img width="359" alt="Production Progress" src="https://user-images.githubusercontent.com/55367064/135005775-09162670-991e-4dd4-a174-add1f99c6730.PNG">
 
+![20210930_182721_50%](https://user-images.githubusercontent.com/55367064/135740059-f989680b-b226-448f-8a6b-9b7ef77e1283.jpg)
+
+![20211003_025620_50%](https://user-images.githubusercontent.com/55367064/135740060-621b3df0-71ce-4e49-9f18-317c5b670ef4.jpg)
+
 &nbsp;
 
 **Case design** (WIP):
