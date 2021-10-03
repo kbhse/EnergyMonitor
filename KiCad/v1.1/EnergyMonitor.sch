@@ -10,7 +10,7 @@ Rev "v1.1"
 Comp ""
 Comment1 ""
 Comment2 ""
-Comment3 "https://www.github.com/kbhse"
+Comment3 "https://www.github.com/kbhse/EnergyMonitor"
 Comment4 "klomar"
 $EndDescr
 Text GLabel 1650 2725 0    50   Input ~ 0
