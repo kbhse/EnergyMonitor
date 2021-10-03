@@ -12,12 +12,14 @@
 #define ADC_COUNTS  (1<<ADC_BITS)
 
 // ------------------------------------------------------------------
-// Create Instances
+// Instantiate Objects
         
 WiFiClient PUB_SUB_CLIENT;
 PubSubClient client(PUB_SUB_CLIENT);
 SimpleTimer timer;
-EnergyMonitor emon1;
+//EnergyMonitor emon1;
+EnergyMonitor ct1, ct2, ct3                                           //  3 current transformers
+// vrms 9v AC-AC wallplug
 
 long updateFreq = 1000;                                                      // DEFAULT update frequency for sensors and publish to MQTT (milliseconds)
 int timerID;

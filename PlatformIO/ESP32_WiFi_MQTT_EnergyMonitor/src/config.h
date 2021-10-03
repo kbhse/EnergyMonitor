@@ -11,7 +11,7 @@
     #define PGMFUNCT ""                                                                                 // what the program does
     #define AUTHOR "klomar"                                                                             // created by
     #define CREATION_DATE "17 August 2021"                                                              // date
-    #define MODIFIED_DATE "9 September 2021"
+    #define MODIFIED_DATE "3 October 2021"
     #define DEBUG_OUT
 
 
