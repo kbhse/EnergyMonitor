@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "ESP32 Energy Monitor"
-Date "2021-09-27"
+Date "2021-10-03"
 Rev "v1.1"
 Comp ""
 Comment1 ""
