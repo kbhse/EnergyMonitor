@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "ESP32 Energy Monitor"
-Date "2021-09-25"
+Date "2021-10-02"
 Rev "v1.0"
 Comp ""
 Comment1 ""
@@ -14438,4 +14438,6 @@ NoConn ~ 5100 3550
 NoConn ~ 5100 2100
 NoConn ~ 5100 5000
 NoConn ~ 2450 2525
+Text Notes 2725 1600 0    50   ~ 0
+GPIO\n40mA source\n28mA sink\n1.5A total 
 $EndSCHEMATC

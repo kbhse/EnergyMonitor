@@ -14438,4 +14438,6 @@ NoConn ~ 5100 3550
 NoConn ~ 5100 2100
 NoConn ~ 5100 5000
 NoConn ~ 2450 2525
+Text Notes 2850 1575 0    50   ~ 0
+GPIO\nsource 40mA\nsink 28mA\ntotal 1.5A
 $EndSCHEMATC
