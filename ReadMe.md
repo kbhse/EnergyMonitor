@@ -93,6 +93,8 @@ Gnd
 
 ![20210930_182721_50%](https://user-images.githubusercontent.com/55367064/135740059-f989680b-b226-448f-8a6b-9b7ef77e1283.jpg)
 
+![20211003_025516_50%](https://user-images.githubusercontent.com/55367064/135740446-cdcbacee-10fc-45cd-8d44-6ec0c5cb55ec.jpg)
+
 ![20211003_025620_50%](https://user-images.githubusercontent.com/55367064/135740060-621b3df0-71ce-4e49-9f18-317c5b670ef4.jpg)
 
 &nbsp;
