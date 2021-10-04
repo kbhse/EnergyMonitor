@@ -39,7 +39,11 @@ void setup()
   analogReadResolution(10);
 
   // Initialize emon library
+  // set parameters for EmonLib objects
   emon1.current(ADC_INPUT, CALIBRATION);
+
+// set parameters for EmonLib objects
+//ct1.current(ADC1, CALIBRATION_1);
 
   pinMode(lamp, OUTPUT);                                                       // onboard LED
   #ifdef LED_STARTS_OFF

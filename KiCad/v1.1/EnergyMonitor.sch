@@ -14440,4 +14440,194 @@ NoConn ~ 5100 5000
 NoConn ~ 2450 2525
 Text Notes 2850 1575 0    50   ~ 0
 GPIO\nsource 40mA\nsink 28mA\ntotal 1.5A
+$Comp
+L power:GND #PWR?
+U 1 1 615AFF51
+P 6500 -1075
+F 0 "#PWR?" H 6500 -1325 50  0001 C CNN
+F 1 "GND" H 6505 -1248 50  0000 C CNN
+F 2 "" H 6500 -1075 50  0001 C CNN
+F 3 "" H 6500 -1075 50  0001 C CNN
+	1    6500 -1075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 615B0811
+P 6050 -875
+F 0 "R?" H 6120 -829 50  0000 L CNN
+F 1 "470K" H 6120 -920 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5980 -875 50  0001 C CNN
+F 3 "~" H 6050 -875 50  0001 C CNN
+	1    6050 -875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 615B081B
+P 6050 -575
+F 0 "R?" H 6120 -529 50  0000 L CNN
+F 1 "470K" H 6120 -620 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5980 -575 50  0001 C CNN
+F 3 "~" H 6050 -575 50  0001 C CNN
+	1    6050 -575
+	1    0    0    -1  
+$EndComp
+Connection ~ 6050 -725
+$Comp
+L Device:C C?
+U 1 1 615B0826
+P 6500 -575
+F 0 "C?" H 6615 -529 50  0000 L CNN
+F 1 "10uF" H 6615 -620 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6538 -725 50  0001 C CNN
+F 3 "~" H 6500 -575 50  0001 C CNN
+	1    6500 -575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 -725 6500 -725
+$Comp
+L power:+3V3 #PWR?
+U 1 1 615B0831
+P 6050 -1025
+F 0 "#PWR?" H 6050 -1175 50  0001 C CNN
+F 1 "+3V3" H 6065 -852 50  0000 C CNN
+F 2 "" H 6050 -1025 50  0001 C CNN
+F 3 "" H 6050 -1025 50  0001 C CNN
+	1    6050 -1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 615B083B
+P 5650 -1175
+F 0 "R?" H 5720 -1129 50  0000 L CNN
+F 1 "1K" H 5720 -1220 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5580 -1175 50  0001 C CNN
+F 3 "~" H 5650 -1175 50  0001 C CNN
+	1    5650 -1175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 615B0845
+P 6500 -1225
+F 0 "D?" V 6454 -1145 50  0000 L CNN
+F 1 "ESD5Z3.3T1G" V 6545 -1145 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-523" H 6500 -1225 50  0001 C CNN
+F 3 "~" H 6500 -1225 50  0001 C CNN
+	1    6500 -1225
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6500 -1375 6750 -1375
+$Comp
+L power:GNDA #PWR?
+U 1 1 615B0850
+P 6050 -425
+F 0 "#PWR?" H 6050 -675 50  0001 C CNN
+F 1 "GNDA" H 6055 -598 50  0000 C CNN
+F 2 "" H 6050 -425 50  0001 C CNN
+F 3 "" H 6050 -425 50  0001 C CNN
+	1    6050 -425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 615B085A
+P 5200 -425
+F 0 "#PWR?" H 5200 -675 50  0001 C CNN
+F 1 "GNDA" H 5205 -598 50  0000 C CNN
+F 2 "" H 5200 -425 50  0001 C CNN
+F 3 "" H 5200 -425 50  0001 C CNN
+	1    5200 -425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 -625 5200 -625
+Wire Wire Line
+	5200 -625 5200 -425
+$Comp
+L power:GNDA #PWR?
+U 1 1 615B0869
+P 6500 -425
+F 0 "#PWR?" H 6500 -675 50  0001 C CNN
+F 1 "GNDA" H 6505 -598 50  0000 C CNN
+F 2 "" H 6500 -425 50  0001 C CNN
+F 3 "" H 6500 -425 50  0001 C CNN
+	1    6500 -425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 615B0873
+P 5650 -875
+F 0 "C?" H 5765 -829 50  0000 L CNN
+F 1 "0.1uF" H 5765 -920 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5688 -1025 50  0001 C CNN
+F 3 "~" H 5650 -875 50  0001 C CNN
+	1    5650 -875
+	1    0    0    -1  
+$EndComp
+Text GLabel 6750 -1375 2    50   Input ~ 0
+ADC1_CH5
+Wire Wire Line
+	5450 -1025 5450 -925
+Connection ~ 5650 -1025
+Wire Wire Line
+	6500 -1375 6075 -1375
+Wire Wire Line
+	5650 -1375 5650 -1325
+Connection ~ 6500 -1375
+Text Label 5250 -925 0    50   ~ 0
+RB1
+Text Label 5250 -725 0    50   ~ 0
+TB1
+Wire Wire Line
+	5450 -1025 5650 -1025
+Wire Wire Line
+	5100 -925 5175 -925
+Wire Wire Line
+	5100 -725 5650 -725
+Connection ~ 5650 -725
+Wire Wire Line
+	5650 -725 6050 -725
+$Comp
+L MyComponents:AudioJack3_Ground_Switch_5_pin J?
+U 1 1 615B088A
+P 4900 -925
+F 0 "J?" H 4882 -600 50  0000 C CNN
+F 1 "AudioJack3_Ground_Switch_5_pin" H 4882 -691 50  0000 C CNN
+F 2 "MyFootprints:3.5mm_5_Pin_Socket_PCB_Mount" H 4900 -925 50  0001 C CNN
+F 3 "~" H 4900 -925 50  0001 C CNN
+	1    4900 -925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Probe TP?
+U 1 1 615B0894
+P 6075 -1375
+F 0 "TP?" H 6228 -1274 50  0000 L CNN
+F 1 "TestPoint_Probe" H 5725 -1175 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile" H 6275 -1375 50  0001 C CNN
+F 3 "~" H 6275 -1375 50  0001 C CNN
+	1    6075 -1375
+	1    0    0    -1  
+$EndComp
+Connection ~ 6075 -1375
+Wire Wire Line
+	6075 -1375 5650 -1375
+NoConn ~ 5100 -825
+Wire Wire Line
+	5100 -1025 5175 -1025
+Wire Wire Line
+	5175 -1025 5175 -925
+Connection ~ 5175 -925
+Wire Wire Line
+	5175 -925 5450 -925
+Text Notes 2850 -550 0    50   ~ 0
+CT Sensor jack plug wired to tip and shield\n2 core cable - no screen
+Text Notes 4250 -1450 0    50   ~ 0
+this modification on v1.0 pcb\ncut Gnd connection to S pin\nconnect S and R pins
 $EndSCHEMATC
