@@ -9,7 +9,7 @@
 
     extern long updateFreq;
     extern PubSubClient client;
-    extern EnergyMonitor emon1;
+    extern EnergyMonitor ct1, ct2, ct3;
 
     // ------------------------------------------------------------------
     // functions:
@@ -29,6 +29,20 @@
     #ifdef WEMOS_SHT30
         SHT3X sht30(0x45);                                                                              // SHT30 shield has two user selectable I2C addresses
     #endif
+
+    // ------------------------------------------------------------------------------------------------
+    double calc_rms(int pin, int samples)
+        {
+        unsigned long sum = 0;
+        for (int i=0; i<samples; i++) // 178 samples takes about 20ms
+            {
+            //int raw = (analogRead(0)-512);
+            int raw = (analogRead(pin)-512);
+            sum += (unsigned long)raw * raw;
+            }
+        double rms = sqrt((double)sum / samples);
+        return rms;
+        }
 
     // ------------------------------------------------------------------------------------------------
     float calcVPD(float T, float RH)
@@ -193,23 +207,57 @@
             client.publish(MQTT_LOCATION "/rssi", rssiStr);
         #endif
 
+
         #ifdef CURRENT_SENSOR
-            static char ampsTemp[7];                                                                // client.publish() expects char array
-            static char wattsTemp[7];
-            double amps = emon1.calcIrms(1480); // Calculate Irms only
-            double watts = amps * HOME_VOLTAGE;
-            dtostrf(amps, 6, 2, ampsTemp);                                                          // convert float to char array
-            dtostrf(watts, 6, 2, wattsTemp);
-            //itoa(amps, ampsTemp, 10);                                                             // convert integer to string (base 10)
-            //itoa(watts, wattsTemp, 10);
-            client.publish(MQTT_LOCATION "/amps", ampsTemp);                                        // publish to MQTT
-            client.publish(MQTT_LOCATION "/watts", wattsTemp);
-            #ifdef DEBUG_OUT
-                Serial.print("Amps: ");
-                Serial.println(amps);
-                Serial.print("Watts: ");
-                Serial.println(watts);
-            #endif
+
+            // mqtt client.publish() expects char arrays
+            static char realPowerTemp[7];
+            static char apparentPowerTemp[7];
+            static char powerFactorTemp[7];
+            static char VrmsTemp[7];
+            static char IrmsTemp[7];
+
+            double realPower;
+            double apparentPower;
+            double powerFactor;
+            double Vrms;
+            double Irms;
+/*
+            if (ACAC)
+                {
+                if (ct2)
+                    {   */
+                    ct2.calcVI(no_of_half_wavelengths, timeout);
+
+                    realPower = ct2.realPower;
+                    apparentPower = ct2.apparentPower;
+                    powerFactor = ct2.powerFactor;
+                    Vrms = ct2.Vrms;
+                    Irms = ct2.Irms;
+
+                    dtostrf(realPower, 6, 2, realPowerTemp);
+                    dtostrf(apparentPower, 6, 2, apparentPowerTemp);
+                    dtostrf(powerFactor, 6, 2, powerFactorTemp);
+                    dtostrf(Vrms, 6, 2, VrmsTemp);
+                    dtostrf(Irms, 6, 2, IrmsTemp);
+
+                    client.publish(MQTT_LOCATION "/ct2_realPower", realPowerTemp);
+                    client.publish(MQTT_LOCATION "/ct2_apparentPower", apparentPowerTemp);
+                    client.publish(MQTT_LOCATION "/ct2_powerFactor", powerFactorTemp);
+                    client.publish(MQTT_LOCATION "/ct2_Vrms", VrmsTemp);
+                    client.publish(MQTT_LOCATION "/ct2_Irms", IrmsTemp);
+
+                    #ifdef DEBUG_OUT
+                        Serial.print("realPower: "); Serial.println(realPower);
+                        Serial.print("apparentPower: "); Serial.println(apparentPower);
+                        Serial.print("powerFactor: "); Serial.println(powerFactor);
+                        Serial.print("Vrms: "); Serial.println(Vrms);
+                        Serial.print("Irms: "); Serial.println(Irms);
+                    #endif
+
+                    //}
+                //}
+
         #endif
 
         #ifdef ADC_TEST

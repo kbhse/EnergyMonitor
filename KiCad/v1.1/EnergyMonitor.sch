@@ -14630,4 +14630,6 @@ Text Notes 2850 -550 0    50   ~ 0
 CT Sensor jack plug wired to tip and shield\n2 core cable - no screen
 Text Notes 4250 -1450 0    50   ~ 0
 this modification on v1.0 pcb\ncut Gnd connection to S pin\nconnect S and R pins
+Text Notes 1625 3850 0    50   ~ 0
+GPIO2 Onboard blue LED
 $EndSCHEMATC

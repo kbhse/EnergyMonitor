@@ -132,6 +132,8 @@
                 timerID = timer.setInterval(updateFreq, readSensors);       // start timer with new updateFreq
                 }
             }
+            
+        /*
         // onboard LED
         if(topic == MQTT_LOCATION "/lamp")
             {
@@ -147,6 +149,7 @@
                 Serial.print("Off");
                 }
             }
+        */
 
         // restart
         if(topic == MQTT_LOCATION "/restart")               // manual restart from NodeRED
