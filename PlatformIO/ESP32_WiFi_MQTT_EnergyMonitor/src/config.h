@@ -96,9 +96,9 @@
     // Configure MQTT
     // (unique identity for each ESP32 device)
 
-        #define MQTT_DEVICE "esp031"                                                                       // MQTT requires unique device ID (see reconnect() function)
-        #define PUB_SUB_CLIENT esp031client                                                                // and unique client ?
-        #define MQTT_LOCATION "roaming31"                                                                  // location for MQTT topic
+        #define MQTT_DEVICE "esp035"                                                                       // MQTT requires unique device ID (see reconnect() function)
+        #define PUB_SUB_CLIENT esp035client                                                                // and unique client ?
+        #define MQTT_LOCATION "esp035pcb"                                                                  // location for MQTT topic
 
     // ------------------------------------------------------------------
     // Comment out sensors not in use
