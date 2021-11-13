@@ -122,4 +122,7 @@ Dimensions (LxWxH): 110x58x35 mm
 
 ![EnergyMonitor Case v1 2](https://user-images.githubusercontent.com/55367064/135209720-03665ac3-10e3-4ed1-92dd-f5c1589561a2.PNG)
 
+![image](https://user-images.githubusercontent.com/55367064/141602946-9c5d5a18-1b7a-4854-bb3e-4be961321986.png)
+
+
 
